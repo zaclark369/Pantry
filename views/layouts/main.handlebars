@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>{{ title }}</title>
+</head>
+
+
+<body>
+  <div class="wrapper">
+     <header>
+    <h1>
+      <a href="/">Just Tech News</a>
+    </h1>
+    <nav>
+        <a href="/search">SEARCH RECIPES</a>
+        <a href="/favorites">VIEW FAVORITES</a>
+  {{#if loggedIn}}
+  <button id="logout" class="btn-no-style">logout</button>
+  {{else}}
+  <a href="/login">login</a>
+  {{/if}}
+</nav>
+  </header>
+    <main>
+      {{{ body }}}
+    </main>
+    <footer>
+      Thanks for visiting!
+    </footer>
+  </div>
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
+</body>
+
+</html>
