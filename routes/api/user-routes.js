@@ -33,6 +33,7 @@ router.post('/', async (req, res) => {
     }
 })
 
+// login route
 router.post('/login', async (req, res) => {
     try {
         const user = await User.findOne(
@@ -59,11 +60,23 @@ router.post('/login', async (req, res) => {
             req.session.loggedIn = true;
 
             res.status(200).json({ user: user, message: 'Login successful!'});
+            console.log(req.session.loggedIn);
         })
 
     } catch(err) {
         console.log(err);
         res.status(400).json(err);
+    }
+})
+
+// logout route
+router.post('/logout', (req, res) => {
+    if (req.session.loggedIn) {
+        req.session.destroy(() => {
+            res.status(204).end();
+        })
+    } else {
+        res.status(404).end();
     }
 })
 
