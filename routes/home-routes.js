@@ -3,11 +3,19 @@ const sequelize = require('../config/connection');
 const { User, Recipe } = require('../models');
 
 router.get('/', (req, res) => {
-    console.log('============================================');
-
+    // console.log('============================================');
+    res.render('homepage', { loggedIn: req.session.loggedIn });
 })
 
-router.get('/recipe//:id', (req, res) => {
+router.get('/favorites', (req, res) => {
+    res.render('favorites', { loggedIn: req.session.loggedIn });
+})
+
+router.get('/search', (req, res) => {
+    res.render('ingredients', { loggedIn: req.session.loggedIn });
+})
+
+router.get('/recipe/:id', (req, res) => {
     Post.findOne({
         where : { id: req.params.id},
         // come back and add attributes when recipes are ready
