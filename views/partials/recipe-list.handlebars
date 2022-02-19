@@ -1,14 +1,12 @@
 {{#each recipe}}
-<div>
-  {{name}}
-  <div class="card w-50">
-    {{#if image}}
-    <img class="card-img-top" src={{image}} alt={{name}}>
-    {{/if}}
-    <div class="card-body">
-      <h5 class="card-title">{{name}}</h5>
-      {{!-- <p class="card-text">{{description}}</p> --}}
-      <a href={{url}} class="btn btn-primary">View Recipe</a>
-    </div>
+<div class="card m-3" style="width: 10rem;">
+  {{#if image}}
+  <img class="card-img-top" src={{image}} alt={{name}}>
+  {{/if}}
+  <div class="card-body">
+    <h5 class="card-title">{{name}}</h5>
+    {{!-- <p class="card-text">{{description}}</p> --}}
+    <a href={{url}} class="btn btn-primary">View Recipe</a>
   </div>
-  {{/each}}
+</div>
+{{/each}}

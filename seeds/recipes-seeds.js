@@ -260,16 +260,16 @@ const recipeData = [
     {
         "@context": "https://schema.org",
         "@type": "Recipe",
-        "name": "NÃ©ctar de Dioses",
+        "name": "Nectar de Dioses",
         "url": "https://bevvy.co/cocktail/nectar-de-dioses/nyiy",
         "image": [
             "https://bevvyco.s3.amazonaws.com/img/drinks/iy/nyiy/--dbae788e65dbd12a179391eb45eb0031-lg.jpg"
         ],
-        "description": "Pulque, also known as the â€œnectar of the gods,â€ is one of Mexico's oldest alcoholic beverages. Largely unknown in the U.S., though renowned throughout the bars in Jalisco, this traditional drink is produced by fermenting the heart of a mature agave plant in a cask, a method that has remained the same for thousands of years. The ancient libation is opaque and milky in color, with a subtly tart flavor. It can be enjoyed plain or mixed into cocktails.To bring pulque to its guests, Brooklyn bar Tinyâ€™s Cantina has imported a selection of Pulque la Flora Pura. Bartender Aushim Raswant featured the pulque in original drinks, like the NÃ©ctar de Dioses (nectar of the gods) that you see here. The sweet and spicy cocktail was inspired by the flavors of Mexico and features a mix of pulque, mezcal, Oaxacan rum, chile liqueur, and agave syrup.",
+        "description": "Pulque, also known as the nectar of the gods. One of Mexico's oldest alcoholic beverages. Largely unknown in the U.S., though renowned throughout the bars in Jalisco, this traditional drink is produced by fermenting the heart of a mature agave plant in a cask, a method that has remained the same for thousands of years. The ancient libation is opaque and milky in color, with a subtly tart flavor. It can be enjoyed plain or mixed into cocktails. Bartender Aushim Raswant featured the pulque in original drinks, like the Nectar de Dioses (nectar of the gods) that you see here. The sweet and spicy cocktail was inspired by the flavors of Mexico and features a mix of pulque, mezcal, Oaxacan rum, chile liqueur, and agave syrup.",
         "prepTime": "PT1M",
         "cookTime": "PT4M",
         "totalTime": "PT5M",
-        "keywords": "nÃ©ctar de dioses, nÃ©ctar, de, dioses, tequila|mezcal",
+        "keywords": "nectar de dioses, nectar, de, dioses, tequila|mezcal",
         "recipeCuisine": "Cocktails",
         "recipeCategory": "Drink",
         "recipeIngredient": [
