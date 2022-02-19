@@ -4,13 +4,14 @@ const { User, Recipe } = require('../models');
 const {recipeData} = require('../seeds/recipes-seeds');
 const DOMPurify = require('isomorphic-dompurify');
 
-router.get('/recipe', async (req, res) => {
+router.get('/search', async (req, res) => {
     try {
+        //sanitizing data with DOMPurify, currently not working
         const recipe = recipeData.map((r) => {
             r.description = DOMPurify.sanitize(r.description);
             return r
         });
-        res.render('homepage', {recipe});
+        res.render('search', {recipe});
     } catch(err) {
         console.log(err);
         res.status(500).json(err);
@@ -27,7 +28,7 @@ router.get('/favorites', (req, res) => {
 })
 
 router.get('/search', (req, res) => {
-    res.render('ingredients', { loggedIn: req.session.loggedIn });
+    res.render('search', { loggedIn: req.session.loggedIn });
 })
 
 router.get('/recipe/:id', (req, res) => {

@@ -78,7 +78,7 @@ const recipeData = [
         "image": [
             "https://bevvyco.s3.amazonaws.com/img/drinks/lq/slq/hurricane-39107018571bc3539d26babbb4b7d4b8-lg.jpg"
         ],
-        "description": "The&nbsp;Hurricane Cocktail&nbsp;is a classic&nbsp;Tiki drink&nbsp;made with two kinds of&nbsp;rum&nbsp;and a trifecta of fresh&nbsp;fruit juices. It's most notable for being served in a signature Hurricane glass, but if you don't have one lying around you can easily use a&nbsp;Highball glass&nbsp;instead.What's in a&nbsp;Hurricane Cocktail?The&nbsp;Hurricane Cocktail&nbsp;is fresh, citrusy, and always at home on the beach or at any summer festivities.The&nbsp;original Hurricane&nbsp;recipe&nbsp;is a simple cocktail with only a few&nbsp;ingredients. As it often goes with bartenders, however, it has been riffed on and experimented with over the yearsâ€”especially during the rise of Tiki bars and tropical drink culture.Our&nbsp;Hurricane recipe&nbsp;below features&nbsp;light rum,&nbsp;dark rum,&nbsp;lime juice, orange juice, passion fruit juice,&nbsp;simple syrup, and&nbsp;grenadine, with an&nbsp;orange slice&nbsp;or wedge for the&nbsp;garnish. Sometimes, a&nbsp;maraschino cherry&nbsp;or a lime is used as an alternative&nbsp;garnish.Who invented the&nbsp;Hurricane Cocktail?While the origin isn't certain, the&nbsp;Hurricane Cocktail&nbsp;is widely believed to have been invented in the&nbsp;1940s&nbsp;in post-war&nbsp;New Orleans. It's usually credited to bar owner&nbsp;Pat O'Brien.The Hurricane was always intended to be a&nbsp;rum cocktail, as after&nbsp;World War&nbsp;II many spirits including&nbsp;whiskey,&nbsp;gin, and brandy were in short supply but rum was plentiful.&nbsp;O'Brien&nbsp;reportedly came up with the&nbsp;recipe&nbsp;when he wanted to get rid of a surplus of&nbsp;rum&nbsp;he had lying around his namesake bar, Pat O'Briens.He ended up serving the drink in a&nbsp;hurricane lamp-shaped glass as a marketing ploy (this glass is known today as the eponymous&nbsp;Hurricane glass) and it has been a tropical favorite ever since.If you have a large group of people to serve, you can easily turn the Hurricane into a punchâ€”simply multiply the&nbsp;recipe&nbsp;below by the number of servings you need.How to make a&nbsp;Hurricane Cocktail?Making a Hurricane is not hard, but it does require you have a&nbsp;cocktail shaker and plenty of ice. Start by shaking all&nbsp;ingredients&nbsp;except the&nbsp;garnish&nbsp;together with ice. Then&nbsp;strain&nbsp;everything into a&nbsp;large Hurricane glass&nbsp;over&nbsp;fresh ice, garnish, and serve with a&nbsp;straw.Follow the&nbsp;recipe&nbsp;and instructions below to make a delicious&nbsp;Hurricane cocktail.",
+        "description": "The Hurricane Cocktail is a classic Tiki drink made with two kinds of rum and a trifecta of fresh fruit juices. It's most notable for being served in a signature Hurricane glass, but if you don't have one lying around you can easily use a Highball glass instead.What's in a Hurricane Cocktail? The Hurricane Cocktail is fresh, citrusy, and always at home on the beach or at any summer festivities.The original Hurricane recipe is a simple cocktail with only a few ingredients. As it often goes with bartenders, however, it has been riffed on and experimented with over the yearsâ€”especially during the rise of Tiki bars and tropical drink culture.Our Hurricane recipe below features light rum, dark rum, lime juice, orange juice, passion fruit juice, simple syrup, and grenadine, with an orange slice or wedge for the garnish. Sometimes, a maraschino cherry or a lime is used as an alternative garnish.Who invented the Hurricane Cocktail?While the origin isn't certain, the Hurricane Cocktail is widely believed to have been invented in the 1940s in post-war New Orleans. It's usually credited to bar owner Pat O'Brien.The Hurricane was always intended to be a rum cocktail, as after World War II many spirits including whiskey, gin, and brandy were in short supply but rum was plentiful. O'Brien reportedly came up with the recipe when he wanted to get rid of a surplus of rum he had lying around his namesake bar, Pat O'Briens.He ended up serving the drink in a hurricane lamp-shaped glass as a marketing ploy (this glass is known today as the eponymous Hurricane glass) and it has been a tropical favorite ever since.If you have a large group of people to serve, you can easily turn the Hurricane into a punchâ€”simply multiply the recipe below by the number of servings you need.How to make a Hurricane Cocktail?Making a Hurricane is not hard, but it does require you have a cocktail shaker and plenty of ice. Start by shaking all ingredients except the garnish together with ice. Then strain everything into a large Hurricane glass over fresh ice, garnish, and serve with a straw.Follow the recipe and instructions below to make a delicious Hurricane cocktail.",
         "prepTime": "PT1M",
         "cookTime": "PT4M",
         "totalTime": "PT5M",
@@ -152,16 +152,16 @@ const recipeData = [
     {
         "@context": "https://schema.org",
         "@type": "Recipe",
-        "name": "PiÃ±a Colada",
+        "name": "Piña Colada",
         "url": "https://bevvy.co/cocktail/pina-colada/ijua",
         "image": [
             "https://bevvyco.s3.amazonaws.com/img/drinks/ua/ijua/pina-colada-11b9806203dfa86e16fea16a265f07be-lg.jpg"
         ],
-        "description": "The PiÃ±a Colada is one of the most popular tropical rum cocktails, and sadly one that has been bastardized by poolside bars the world over. This is a classic PiÃ±a Colada recipe that doesn't use any kind of pre-made mix, instead opting for coconut cream and fresh pineapple juice. Be sure to use a proper coconut cream, as the alternative, coconut milk, is usually too thin. However, it will do in a pinch, and you can add a bit of condensed milk if you want to thicken it up a bit.While most recipes call for white rum, a gold or dark rum can make things a little more interestingâ€”just don't bother using anything expensive, as its subtleties will be lost in the rest of the ingredients. This PiÃ±a Colada is blended, but you can also make a shaken version. Simply add all the ingredients to a cocktail shaker with ice, shake until chilled, and strain into a Hurricane glass with fresh ice.",
+        "description": "The  Piña Colada is one of the most popular tropical rum cocktails, and sadly one that has been bastardized by poolside bars the world over. This is a classic  Piña Colada recipe that doesn't use any kind of pre-made mix, instead opting for coconut cream and fresh pineapple juice. Be sure to use a proper coconut cream, as the alternative, coconut milk, is usually too thin. However, it will do in a pinch, and you can add a bit of condensed milk if you want to thicken it up a bit. While most recipes call for white rum, a gold or dark rum can make things a little more interesting; just don't bother using anything expensive, as its subtleties will be lost in the rest of the ingredients. This  Piña Colada is blended, but you can also make a shaken version. Simply add all the ingredients to a cocktail shaker with ice, shake until chilled, and strain into a Hurricane glass with fresh ice.",
         "prepTime": "PT1M",
         "cookTime": "PT4M",
         "totalTime": "PT5M",
-        "keywords": "piÃ±a colada, piÃ±a, colada, rum",
+        "keywords": " Piña Colada, Piña, colada, rum",
         "recipeCuisine": "Cocktails",
         "recipeCategory": "Drink",
         "recipeIngredient": [
@@ -1187,7 +1187,7 @@ const recipeData = [
         "@context": "http://schema.org/",
         "@type": "Recipe",
         "name": "Oven Roasted Parmesan Asparagus",
-        "description": "This Oven Roasted Parmesan&nbsp;Asparagus is super easy to make and bursting with flavor!&nbsp;",
+        "description": "This Oven Roasted Parmesan Asparagus is super easy to make and bursting with flavor! ",
         "image": [
             "https://www.midgetmomma.com/wp-content/uploads/2019/05/baked-parmesan-asparagus.jpg",
             "https://www.midgetmomma.com/wp-content/uploads/2019/05/baked-parmesan-asparagus-500x500.jpg",
@@ -1210,14 +1210,14 @@ const recipeData = [
         "recipeInstructions": [
             {
                 "@type": "HowToStep",
-                "text": "Preheat the oven to 400 degrees.&nbsp;",
-                "name": "Preheat the oven to 400 degrees.&nbsp;",
+                "text": "Preheat the oven to 400 degrees. ",
+                "name": "Preheat the oven to 400 degrees. ",
                 "url": "https://www.midgetmomma.com/oven-roasted-parmesan-asparagus/#wprm-recipe-188199-step-0-0"
             },
             {
                 "@type": "HowToStep",
-                "text": "Trim the tough ends off the asparagus. Place asparagus on a baking sheet lined with foil.&nbsp;",
-                "name": "Trim the tough ends off the asparagus. Place asparagus on a baking sheet lined with foil.&nbsp;",
+                "text": "Trim the tough ends off the asparagus. Place asparagus on a baking sheet lined with foil. ",
+                "name": "Trim the tough ends off the asparagus. Place asparagus on a baking sheet lined with foil. ",
                 "url": "https://www.midgetmomma.com/oven-roasted-parmesan-asparagus/#wprm-recipe-188199-step-0-1"
             },
             {
@@ -3296,7 +3296,7 @@ const recipeData = [
             "salt to taste",
             "400 g beetroot",
             "75-100 g lamb&#8217;s lettuce",
-            "&nbsp;",
+            " ",
             "*can be substituted by a tolerated vegetable bouillon, if need be."
         ],
         "recipeInstructions": [
