@@ -2,11 +2,15 @@ const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { User, Recipe } = require('../models');
 const {recipeData} = require('../seeds/recipes-seeds');
+const DOMPurify = require('isomorphic-dompurify');
 
 router.get('/recipe', async (req, res) => {
     try {
-        
-        res.render('homepage', {recipeData});
+        const recipe = recipeData.map((r) => {
+            r.description = DOMPurify.sanitize(r.description);
+            return r
+        });
+        res.render('homepage', {recipe});
     } catch(err) {
         console.log(err);
         res.status(500).json(err);
