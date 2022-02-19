@@ -4777,7 +4777,7 @@ const recipeData = [
             "1 C shrimp, peeled and deveined",
             "1 C frozen leaf spinach (about â…” of a 10-oz package)"
         ],
-        "name": "SautÃ©ed Mung Beans (Munggo Guisado)",
+        "name": "Sautéed Mung Beans (Munggo Guisado)",
         "recipeInstructions": "In a large skillet, heat the oil, and sautÃ© the garlic until lightly browned.\nAdd onions and tomatoes. SautÃ©e until skin begins to curl.\nAdd pork, and sautÃ© until lightly browned.\nAdd 4 cups water, and simmer pork for about 15 minutes.\nAdd the mung beans, and continue to simmer for 15 minutes.\nSeason with salt and black pepper.\nAdd the shrimp and frozen leaf spinach, and cook for 4 minutes or until done.",
         "totalTime": "PT1H20M",
         "recipeYield": "8 serving(s)",
