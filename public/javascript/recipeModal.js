@@ -1,9 +1,10 @@
+const recipeArrayCategory = require('seeds/recipes-seeds.js')
+
 var displayModal = function (event) {
     for (var i = 0; i < recipeArrayCategory.length; i++) {
       if (recipeArrayCategory[i].name === event.target.textContent) {
         // MODAL CONTENTS
         var name = recipeArrayCategory[i].name;
-        var address = recipeArrayCategory[i].address;
         var imgSrc = recipeArrayCategory[i].imgSrc;
         var phone = recipeArrayCategory[i].phone;
         var website = recipeArrayCategory[i].website;
