@@ -415,10 +415,7 @@ const recipeData = [
         "name": "Chicken Alfredo Ravioli Bake",
         "description": "",
         "image": [
-            "https://www.midgetmomma.com/wp-content/uploads/2021/06/Chicken-Alfredo-Ravioli-Bake-27.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2021/06/Chicken-Alfredo-Ravioli-Bake-27-500x500.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2021/06/Chicken-Alfredo-Ravioli-Bake-27-500x375.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2021/06/Chicken-Alfredo-Ravioli-Bake-27-480x270.jpg"
+            "https://www.midgetmomma.com/wp-content/uploads/2021/06/Chicken-Alfredo-Ravioli-Bake-27.jpg"
         ],
         "recipeYield": [
             "6"
@@ -526,10 +523,7 @@ const recipeData = [
         "name": "Garlic Parmesan Potato Chips",
         "description": "Garlic Parmesan Potato chips. With only 5 ingredients Garlic Parmesan Potato Chips are super easy to make at home. Perfect for a snack, with lunch or a party! everyone will love these easy to make homemade potato chips.",
         "image": [
-            "https://www.midgetmomma.com/wp-content/uploads/2016/11/Garlic-Parmesan-Potato-Chips-21.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2016/11/Garlic-Parmesan-Potato-Chips-21-500x500.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2016/11/Garlic-Parmesan-Potato-Chips-21-500x375.jpg",
-            "https://www.midgetmomma.com/wp-content/uploads/2016/11/Garlic-Parmesan-Potato-Chips-21-480x270.jpg"
+            "https://www.midgetmomma.com/wp-content/uploads/2016/11/Garlic-Parmesan-Potato-Chips-21.jpg"
         ],
         "recipeYield": [
             "6"
@@ -3098,8 +3092,8 @@ const recipeData = [
     {
         "@context": "https://schema.org/",
         "@type": "Recipe",
-        "name": "Anti-inflammatory Carrot &amp; Fennel Soup",
-        "description": "Creamy Anti-inflammatory Carrot &amp; Fennel Soup with Turmeric and Ginger.",
+        "name": "Anti-inflammatory Carrot & Fennel Soup",
+        "description": "Creamy Anti-inflammatory Carrot & Fennel Soup with Turmeric and Ginger.",
         "image": [
             "https://histaminefriendlykitchen.com/wp-content/uploads/2017/10/carrot-and-fennelsoupfeature-225x225.jpg",
             "https://histaminefriendlykitchen.com/wp-content/uploads/2017/10/carrot-and-fennelsoupfeature-260x195.jpg",
@@ -3627,8 +3621,8 @@ const recipeData = [
             "1/2 cup water"
         ],
         "name": "2-Step Chicken",
-        "recipeInstructions": "Heat oil in a skillet at a medium-high setting.\nAdd chicken and cook for ten minutes.\nRemove chicken from pan and set aside.\nStir the soup and water together in the skillet and heat it to a boil.\nReturn the chicken to the skillet. Reduce the heat to low and simmer for an additional 10 minutes, or until the chicken reaches an internal temperature of 165Â°F.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/2%20step%20chicken.jpg",
+        "recipeInstructions": "Heat oil in a skillet at a medium-high setting.\nAdd chicken and cook for ten minutes.\nRemove chicken from pan and set aside.\nStir the soup and water together in the skillet and heat it to a boil.\nReturn the chicken to the skillet. Reduce the heat to low and simmer for an additional 10 minutes, or until the chicken reaches an internal temperature of 165°F.",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/2%20step%20chicken.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3654,7 +3648,7 @@ const recipeData = [
         "name": "20-Minute Chicken Creole",
         "recipeInstructions": "Heat pan over medium-high heat (350 degrees in an electric skillet). Add vegetable oil and chicken and cook until the chicken reaches an internal temperature of 165Â°F (3-5 minutes).\nReduce heat to medium (300 degrees in electric skillet).\nAdd tomatoes with juice, chili sauce, green pepper, celery, onion, garlic, basil, parsley, cayenne pepper, and salt.\nBring to a boil; reduce heat to low and simmer, covered for 10-15 minutes.\nServe over hot, cooked rice or whole wheat pasta.\nRefrigerate leftovers within 2 hours.",
         "totalTime": "PT20M",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-10/Chicken%20Creole.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-10/Chicken%20Creole.jpg"],
         "recipeYield": "8 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3671,7 +3665,7 @@ const recipeData = [
         ],
         "name": "3-Can Chili",
         "recipeInstructions": "1. Place the contents of all 3 cans into a pan.\n2. Add chili powder to taste.\n3. Stir to mix.\n4. Continue to stir over medium heat until heated thoroughly.\n5. Refrigerate leftovers.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/Chili.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/Chili.jpg"],
         "recipeYield": "6 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3693,7 +3687,7 @@ const recipeData = [
         ],
         "name": "5 A Day Bulgur Wheat",
         "recipeInstructions": "Wash and chop fresh onion, broccoli, carrots, pepper and parsley (if using fresh parsley).\nHeat canola oil in a large skillet. Add onions and cook until soft.\nAdd bulgur and stir to coat. Add 2 cups chicken broth to the skillet, bring to a boil.\nLower the heat, add remaining vegetables and chickpeas. Cook for 10 minutes or until the liquid is absorbed.\nAdd parsley and stir. Serve warm or cold.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/5ADayBulgarWheat310x200.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/5ADayBulgarWheat310x200.jpg"],
         "recipeYield": "8 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3716,7 +3710,7 @@ const recipeData = [
         ],
         "name": "5 A Day Salad",
         "recipeInstructions": "Wash all of the vegetables and mix them together in a large mixing bowl. Top this colorful meal with the nonfat or low-fat dressing of your choice.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/5%20A%20Day%20Salad%20Pic%201.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/5%20A%20Day%20Salad%20Pic%201.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3734,7 +3728,7 @@ const recipeData = [
         ],
         "name": "A Simple Mexican Salad",
         "recipeInstructions": "1. Wash the cucumbers, oranges and lemon or lime under cold running water.\n2. Slice the cucumbers. Peel and cut the oranges into small pieces.\n3. Place cucumber slices and orange pieces in a medium size bowl. Add chili powder, lemon or lime juice and salt.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-10/SimpleMexicanSalad.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-10/SimpleMexicanSalad.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3754,7 +3748,7 @@ const recipeData = [
         ],
         "name": "Ambrosia",
         "recipeInstructions": "Drain pineapple and oranges. Use juice as beverage.\nCombine fruit with marshmallows and coconut.\nFold in yogurt.\nChill.\nServe.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-03/ambrosia%20%282%29.jpeg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-03/ambrosia%20%282%29.jpeg"],
         "recipeYield": "8 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3773,7 +3767,7 @@ const recipeData = [
         ],
         "name": "Angel Food Cake",
         "recipeInstructions": "1. Preheat the oven to 325Â°F. In a large mixing bowl, beat the egg whites until they are foamy.\n2. Add the cream of tartar and beat until stiff, but not dry. Gradually beat in the sugar\n3. Add the vanilla and salt and then gently fold in the flour.\n4. Pour the mix into an angel food tubular pan and bake for 1 hour and 15 minutes, or until the top is nicely browned.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AngelFoodCake_527x323.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AngelFoodCake_527x323.jpg"],
         "recipeYield": "12 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3791,7 +3785,7 @@ const recipeData = [
         ],
         "name": "Angel Food Pastry with Fresh Berries and Whipped Cream",
         "recipeInstructions": "Scoop 3 Tablespoons of angel food cake mix into a microwave-safe cup or mug.\nAdd 2 Tablespoons of vanilla yogurt and stir.\nPlace in the center of the microwave oven and microwave for 1 minute.\nTake out of microwave and let cool for 1 minute.\nUsing a knife, cut around the sides of the cup to loosen the cake and \"dump\" it on a plate.\nDole 1 Tablespoon of whipped topping on top of the cake.\nSprinkle raspberries around the angel cake and add sliced strawberries to top.\nEnjoy.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Angelfood%20cake.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Angelfood%20cake.jpg"],
         "recipeYield": "1 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3809,7 +3803,7 @@ const recipeData = [
         ],
         "name": "Any Days a Picnic Chicken Salad",
         "recipeInstructions": ".1. Wash hands with soap and water.\n2. Combine all ingredients.\n3. Refrigerate until ready to serve.\n4. Use within 1-2 days. Chicken salad does not freeze well.\nHow to use\n:\n- Make chicken salad sandwiches.\n- Make a pasta salad by mixing with 2 cups cooked pasta.\n- Kids will love this salad served in a tomato or a cucumber boat.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/AnyDaysaPicnicChickenSalad.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/AnyDaysaPicnicChickenSalad.jpg"],
         "recipeYield": "6 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3829,7 +3823,7 @@ const recipeData = [
         ],
         "name": "Anytime Pizza",
         "recipeInstructions": "1. Toast the bread or English muffin until slightly brown.\n2. Top bread or muffin with pizza sauce, vegetables and low-fat cheese.\n3. Sprinkle with Italian seasonings as desired.\n4. Return bread to toaster oven (or regular oven preheated to 350 degrees).\n5. Heat until cheese melts.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AnytimePizza_527x323.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AnytimePizza_527x323.jpg"],
         "recipeYield": "2 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3851,7 +3845,7 @@ const recipeData = [
         ],
         "name": "Apple & Chicken Salad",
         "recipeInstructions": "Cut apples in quarters; remove core and chop.\nIn a medium size bowl, mix all ingredients, except lettuce.\nTo serve, arrange lettuce on serving plates top with apple and chicken salad.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20%26%20Chicken%20Salad_12.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20%26%20Chicken%20Salad_12.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3869,7 +3863,7 @@ const recipeData = [
         "name": "Apple Banana Salad with Peanuts",
         "recipeInstructions": "Whisk together dressing ingredients.\nSlice bananas.\nIn a large salad bowl, toss mixed greens, banana and apple slices, peanuts, and dressing.",
         "totalTime": "PT15M",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20Banana%20Salad%20with%20Peanuts.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20Banana%20Salad%20with%20Peanuts.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3891,7 +3885,7 @@ const recipeData = [
         ],
         "name": "Apple Cake",
         "recipeInstructions": "1. Beat butter with sugar until creamy.\n2. Add eggs one at a time, beating until well blended.\n3. Add flour, baking powder, and lemon rind, beat 4 minutes.\n4. Pour into greased 9-inch spring-form pan.\n5. Arrange the apples on the batter, sprinkle with 2 teaspoons sugar.\n6. Bake 1 hour at 350 degrees.\n7. Remove from pan, brush apples with jam, cool.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-02/AppleCake.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-02/AppleCake.jpg"],
         "recipeYield": "12 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3911,7 +3905,7 @@ const recipeData = [
         ],
         "name": "Apple Carrot Soup",
         "recipeInstructions": "1. In a large pot over high heat, combine all ingredients, bring to a boil.\n2. Reduce heat to medium and simmer until soup reduces to about 8 cups of liquid, about 3 to 4 hours.\n3. Skim fat from surface and serve.\n4. Store leftover soup covered in refrigerator for up to 3 days.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-02/AppleCarrotSoup.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-02/AppleCarrotSoup.jpg"],
         "recipeYield": "8 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3933,8 +3927,8 @@ const recipeData = [
             "2 cups apple (sliced, to place on cake)"
         ],
         "name": "Apple Chunk Cake",
-        "recipeInstructions": "Preheat oven to 350Â° F.\nWash hands with soap and water.\nIn a large bowl, mix sugar, oil and eggs together. Beat well.\nIn a separate bowl, combine flour, salt, cinnamon, and baking soda. Add to egg batter and mix well.\nAdd apple chunks and applesauce to the batter. Stir to combine.\nCoat an 8x8 inch baking pan with vegetable oil spray, and pour in batter.\nBake until done, about 1 hour.\nPlace apple slices on top of apple cake and serve.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-06/Apple%20cake.jpeg",
+        "recipeInstructions": "Preheat oven to 350° F.\nWash hands with soap and water.\nIn a large bowl, mix sugar, oil and eggs together. Beat well.\nIn a separate bowl, combine flour, salt, cinnamon, and baking soda. Add to egg batter and mix well.\nAdd apple chunks and applesauce to the batter. Stir to combine.\nCoat an 8x8 inch baking pan with vegetable oil spray, and pour in batter.\nBake until done, about 1 hour.\nPlace apple slices on top of apple cake and serve.",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-06/Apple%20cake.jpeg"],
         "recipeYield": "12 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3954,8 +3948,8 @@ const recipeData = [
             "1 cup shortening"
         ],
         "name": "Apple Cinnamon Bars",
-        "recipeInstructions": "Preheat the oven to 350 degrees.\nPut the flour, salt, baking soda, cinnamon, brown sugar, and oats in the mixing bowl. Stir together.\nAdd the shortening to the bowl. Use the 2 table knives to mix the ingredients and cut them into crumbs.\nLightly grease the bottom and sides of the baking dish with a little bit of shortening.\nSpread half of the crumb mixture in the greased baking dish.\nRemove the core from the apples and slice them. Put the apple slices into the baking dish.\nTop the apples with the rest of the crumb mixture.\nBake in the oven for 40 â€“ 45 minutes.\nCut into squares. It will fall apart easily.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AppleCinnamonBars_527x323.jpg",
+        "recipeInstructions": "Preheat the oven to 350 degrees.\nPut the flour, salt, baking soda, cinnamon, brown sugar, and oats in the mixing bowl. Stir together.\nAdd the shortening to the bowl. Use the 2 table knives to mix the ingredients and cut them into crumbs.\nLightly grease the bottom and sides of the baking dish with a little bit of shortening.\nSpread half of the crumb mixture in the greased baking dish.\nRemove the core from the apples and slice them. Put the apple slices into the baking dish.\nTop the apples with the rest of the crumb mixture.\nBake in the oven for 40 or 45 minutes.\nCut into squares. It will fall apart easily.",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/AppleCinnamonBars_527x323.jpg"],
         "recipeYield": "24 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3978,7 +3972,7 @@ const recipeData = [
         ],
         "name": "Apple Coffee Cake",
         "recipeInstructions": "Preheat oven to 350Â°F.\nLightly oil a 13x9x2 inch pan.\nIn a large mixing bowl, combine apples with sugar, raisins, and pecans; mix well. Let stand 30 minutes.\nStir in oil, vanilla, and egg. Sift together flour, soda, and cinnamon; stir into apple mixture about 1/3 at a time, just enough to moisten dry ingredients.\nTurn batter into pan. Bake 35-40 minutes. Cool cake slightly before serving.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/AppleCoffeeCake310x200.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/AppleCoffeeCake310x200.jpg"],
         "recipeYield": "20 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -3999,7 +3993,7 @@ const recipeData = [
         ],
         "name": "Apple Coleslaw",
         "recipeInstructions": "1. Wash your hands with soap and water.\n2. Wash the cabbage. Cut it into fine shreds, until you have 2 cups of cabbage.\n3. Peel the carrot. Grate it with a grater.\n4. Chop half a green pepper into small pieces.\n5. Remove the core, and chop the apple.\n6. Put the cabbage, carrot, green pepper, and apple in a large mixing bowl. Stir together.\n7. Put the yogurt, mayonnaise, lemon juice, and dill weed in a small bowl. Stir together to make a dressing.\n8. Pour the dressing over the salad. Toss to mix.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-06/Slaw.jpeg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-06/Slaw.jpeg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4025,7 +4019,7 @@ const recipeData = [
         "name": "Apple Corn Chili",
         "recipeInstructions": "In a stockpot, heat 1 tbsp. olive oil; add chicken and brown (about 5 minutes). Remove chicken from pan.\nHeat remaining olive oil in same pot; add onions and garlic and sautÃ© until soft.\nAdd corn and sautÃ© until golden brown. Add apple, cumin, and cayenne pepper (if desired); cook about 3-4 minutes. Let cool about 5 minutes.\nSet aside about 1 cup of mixture. PurÃ©e remainder in food processor or blender, adding a portion of water, if needed, and return to pot.\nAdd browned chicken, black beans, chiles, bouillon, and water. Bring to boil and simmer about 15 minutes. Chicken should be cooked to 165 ÂºF.\nTo serve, ladle soup in bowls and top with non-purÃ©ed portion of apple corn mixture.",
         "totalTime": "PT45M",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20Corn%20Chili_0.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Apple%20Corn%20Chili_0.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4048,7 +4042,7 @@ const recipeData = [
         "name": "Pan Roasted Tilapia with Tomatillo Salsa",
         "recipeInstructions": "Preheat the oven to 450 degrees\nTo make the tomatillo salsa: (Canned tomatillo salsa can be used instead of fresh)\nTo prepare the tomatillos, peel back the husk from the smooth green tomatillo skin. Rinse the tomatillos with warm water and cut into quarters.\nPlace the husked tomatillos, onion, chilies, garlic, and 1 teaspoon oil in the baking pan, stir well and transfer to the oven. Roast about 20 minutes until the tomatillos are soft and dark green. Set aside to cool.\nTransfer the mixture to the blender; add the salt, lime juice, and cilantro and puree.\nTo cook the tilapia:\nPlace the skillet on the stove over high heat and when it is hot, carefully add 2 teaspoons oil.\nPut the tilapia fillets in the pan, waiting about 30 seconds between additions. Cook about 5â€“6 minutes, until golden brown on both sides.\nTransfer the tilapia to the serving plate and top with generous amounts of salsa. Serve right away.",
         "totalTime": "PT40M",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/TilapiaWithTomatilloSauce.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/recipe-images/TilapiaWithTomatilloSauce.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4068,7 +4062,7 @@ const recipeData = [
         ],
         "name": "Brunswick Stew",
         "recipeInstructions": "1. Heat oil in a large pan. Add onion and cook in oil until tender.\n2. Add all remaining ingredients. Bring to a simmer for 30 minutes at medium-low.\n3. Makes 8 servings of about 1 cup each.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-05/BrunswickStew.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-05/BrunswickStew.jpg"],
         "recipeYield": "8 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4086,7 +4080,7 @@ const recipeData = [
         ],
         "name": "Peachy Peanut Butter Pita Pockets",
         "recipeInstructions": "1. Cut pitas in half to make 4 pockets and warm in the microwave for about 10 seconds to make them more flexible.\n2. Carefully open each pocket and spread a thin layer of peanut butter on the inside walls.\n3. Fill with a combination of apple, banana, and peach slices. Serve at room temperature.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/fruit%20pita.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/fruit%20pita.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4110,7 +4104,7 @@ const recipeData = [
         "name": "Braised Chicken Thighs with Spinach",
         "recipeInstructions": "Heat skillet over medium-high heat. Add 1 teaspoon oil. Add chicken, top side down. Cook about 8 minutes on each side, or until deeply browned. Remove the chicken to a dinner plate and set aside.\nReheat skillet over medium heat. Add the onion, garlic, thyme, and rosemary. Cook about 5 minutes, until the onion is soft and golden. Return the chicken to the pan.\nAdd the water, and cover. Continue cooking for about 30 minutes.\nAdd frozen spinach and cook for about 10 minutes. Or, add the fresh spinach and cook about 2 minutes, until it wilts. Serve right away.",
         "totalTime": "PT1H10M",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Braised%20Chicken%20Thighs%20with%20Spinach%201_0.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-01/Braised%20Chicken%20Thighs%20with%20Spinach%201_0.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4130,7 +4124,7 @@ const recipeData = [
         ],
         "name": "Slow Cooker Lentil Soup",
         "recipeInstructions": "1. Mix all ingredients together in slow cooker.\n2. Cook on LOW for 8 to 10 hours or HIGH for 4 to 5 hours.\n3. Serve hot with crackers or bread.",
-        "image": "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/SlowCookerLentilSoup_527x323.jpg",
+        "image": ["https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2020-11/SlowCookerLentilSoup_527x323.jpg"],
         "recipeYield": "6 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4699,7 +4693,7 @@ const recipeData = [
         "name": "Chicken Picadillo",
         "recipeInstructions": "Heat olive oil in a large sautÃ© pan over medium heat. Add the onion, bell peppers, and garlic, and sautÃ© until vegetables are soft, about 5 minutes.\nAdd the chicken, and stir fry for another 5â€“10 minutes until chicken is no longer pink inside.\nAdd the tomato sauce, chicken broth, lemon juice, cumin, bay leaves, water, and raisins to the vegetables and chicken.\nCover the pan, and reduce the heat. Simmer for 10 minutes.\nRemove the bay leaves, and garnish with fresh cilantro, capers, and green olives, and serve.",
         "totalTime": "PT40M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Chicken_Picadillo.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Chicken_Picadillo.jpg"],
         "recipeYield": "6 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4720,9 +4714,9 @@ const recipeData = [
             "1 tsp sesame oil"
         ],
         "name": "Wiki (Fast) Rice",
-        "recipeInstructions": "Heat canola oil in a large wok or sautÃ© pan over medium heat. Add garlic, ginger, and scallions, and cook until fragrant, about 1 minute.\nAdd water chestnuts, and continue to cook until they begin to soften, another 1â€“2 minutes.\nAdd vegetables, and toss until heated through, about 2â€“3 minutes (or up to 5 minutes for frozen vegetables).\nAdd rice, and continue to cook until hot, about 3â€“5 minutes.\nAdd soy sauce and sesame oil. Toss well, and serve.",
+        "recipeInstructions": "Heat canola oil in a large wok or sautÃ© pan over medium heat. Add garlic, ginger, and scallions, and cook until fragrant, about 1 minute.\nAdd water chestnuts, and continue to cook until they begin to soften, another 1â€“2 minutes.\nAdd vegetables, and toss until heated through, about 2 or 3 minutes (or up to 5 minutes for frozen vegetables).\nAdd rice, and continue to cook until hot, about 3 to 5 minutes.\nAdd soy sauce and sesame oil. Toss well, and serve.",
         "totalTime": "PT25M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Wiki_Rice.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Wiki_Rice.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4740,7 +4734,7 @@ const recipeData = [
         "name": "Mango Shake",
         "recipeInstructions": "Put all ingredients into a blender. Blend until foamy. Serve immediately.",
         "totalTime": "PT5M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Mango_Shake.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Mango_Shake.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4761,7 +4755,7 @@ const recipeData = [
         "name": "Ampalaya (Bitter Melon) With Pork",
         "recipeInstructions": "Heat olive oil in a large skillet. Lightly sautÃ© onion and garlic.\nAdd the ground pork, and cook until almost done.\nAdd the sliced ampalaya (bitter melon). Cover and simmer until the bitter melon turns green. Do not overcook.\nSeason with lite soy sauce and black pepper, and serve.",
         "totalTime": "PT30M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Ampalaya_With_Pork.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Ampalaya_With_Pork.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -4803,7 +4797,7 @@ const recipeData = [
         "name": "Cantaloupe Crush",
         "recipeInstructions": "Cut cantaloupe into small cubes or thin strips.\nMix cantaloupe, milk, and ice in a blender until smooth.\nSweeten to taste. Serve.",
         "totalTime": "PT5M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Cantaloupe_Crush.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Cantaloupe_Crush.jpg"],
         "recipeYield": "4 serving(s)",
         "@context": "https://schema.org",
         "@type": [
@@ -5038,7 +5032,7 @@ const recipeData = [
         "name": "Summer Breeze Smoothie",
         "recipeInstructions": "Place all ingredients in blender, and puree until smooth.\nServe in frosted glasses.",
         "totalTime": "PT5M",
-        "image": "https://healthyeating.nhlbi.nih.gov/images/food/Summer_Breeze_Smoothie.jpg",
+        "image": ["https://healthyeating.nhlbi.nih.gov/images/food/Summer_Breeze_Smoothie.jpg"],
         "recipeYield": "3 serving(s)",
         "@context": "https://schema.org",
         "@type": [

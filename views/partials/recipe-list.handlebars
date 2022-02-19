@@ -1,7 +1,7 @@
 {{#each recipe}}
 <div class="card m-3" style="width: 10rem;">
   {{#if image}}
-  <img class="card-img-top" src={{image}} alt={{name}}>
+  <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
   {{/if}}
   <div class="card-body">
     <h5 class="card-title">{{name}}</h5>
