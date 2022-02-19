@@ -1,3 +1,16 @@
 <h1>{{title}}</h1>
 <p>Search for Recipes with ingredients you already have in stock!</p>
 <button class="btn btn-primary">Get Started</button>
+
+{{#each recipeData}}
+<div>
+    {{name}}
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src={{image}} alt={{name}}>
+  <div class="card-body">
+    <h5 class="card-title">{{name}}</h5>
+    <p class="card-text">{{description}}</p>
+    <a href={{url}} class="btn btn-primary">View Recipe</a>
+  </div>
+</div>
+{{/each}}

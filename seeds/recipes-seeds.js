@@ -1,4 +1,4 @@
-[
+const recipeData = [
     {
         "@context": "https://schema.org",
         "@type": "Recipe",
@@ -5066,3 +5066,5 @@
         "url": "https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=15&cId=12&rId=251&AspxAutoDetectCookieSupport=1"
     }
 ]
+
+module.exports = {recipeData};
