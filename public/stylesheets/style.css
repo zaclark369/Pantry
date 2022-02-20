@@ -6,6 +6,15 @@
     --buttonselect: #86BD5F;
 }
 
+html, body, main {
+  margin: 0;
+ 
+}
+
+.wrapper {
+  margin: 0;
+  height: 100%;
+}
 
 .favorite-btn {
     background-color: var(--navbar);
@@ -36,11 +45,13 @@
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-color: brown;
+    background-image: url("../img/pantry_background.jpg");
+    /* background-color: brown; */
     background-repeat: no-repeat;
-    background-attachment: scroll;
+     background-attachment: scroll; 
     background-position: center center;
-    background-size: cover;
+    background-size: cover; 
+    height: 100%;
   }
   header.masthead .masthead-subheading {
     font-size: 1.5rem;
