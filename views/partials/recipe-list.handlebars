@@ -7,7 +7,7 @@
 </div> --}}
 
 {{#each recipeData}}
-<div class="card m-3" style="width: 10rem;">
+<div class="card m-3 {{recipeIngredient}} hide" style="width: 10rem;">
   {{#if image}}
   <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
   {{/if}}
