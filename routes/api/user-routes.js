@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const { User } = require('../../models');
+const { User, Favorite } = require('../../models');
 
 // get all users
 router.get('/', async (req, res) => {
@@ -11,6 +11,27 @@ router.get('/', async (req, res) => {
             }
         )
         res.json(users);
+    } catch(err) {
+        console.log(err);
+        res.status(500).json(err);
+    }
+})
+
+// get specific users including their favorite recipes
+router.get('/:id', async (req, res) => {
+    try {
+        const user = await User.findByPk(req.params.id,
+            {
+                attributes: { exclude: ['password']},
+                include: [
+                    {
+                        model: Favorite,
+                        attributes: ['recipe_index']
+                    }
+                ]
+            }
+        )
+        res.json(user);
     } catch(err) {
         console.log(err);
         res.status(500).json(err);
