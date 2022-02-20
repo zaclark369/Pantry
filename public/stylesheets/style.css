@@ -27,6 +27,7 @@
 
 #ingredients {
   background-color: var(--favoritebar);
+  height: 100vh;
 }
 
 /* size dependant and addition of masthead */
