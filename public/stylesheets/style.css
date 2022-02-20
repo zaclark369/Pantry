@@ -25,6 +25,10 @@
   background-color: var(--navbar);
 }
 
+.card {
+  height: fit-content;
+}
+
 #ingredients {
   background-color: var(--favoritebar);
   height: 100vh;

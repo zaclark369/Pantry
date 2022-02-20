@@ -13,14 +13,13 @@ function ingredientButtonHandler(event) {
     "." + event.currentTarget.textContent
   );
   recipeShow.forEach((recipe) => {
-      if (recipe.classList.contains("hide")) {
-        recipe.classList.remove("hide");
-        recipe.classList.add("show");
-      } else {
-        recipe.classList.remove("show");
-        recipe.classList.add("hide");
-      }
-    
+    if (recipe.classList.contains("hide")) {
+      recipe.classList.remove("hide");
+      recipe.classList.add("show");
+    } else {
+      recipe.classList.remove("show");
+      recipe.classList.add("hide");
+    }
   });
 }
 

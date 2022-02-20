@@ -1494,7 +1494,7 @@ const recipeData = [
     {
         "@context": "http://schema.org/",
         "@type": "Recipe",
-        "name": "homemade fresh tomato soup",
+        "name": "Homemade Fresh Tomato Soup",
         "description": "Homemade tomato soup made with fresh tomatoes is an easy to make classic soup recipe. Fresh tomatoes along with spices and herbs make this homemade fresh tomato soup easy to make and rich in tomato flavor.",
         "image": [
             "https://www.midgetmomma.com/wp-content/uploads/2013/10/Homemade-tomato-soup-with-fresh-tomatoes-11.jpg",
@@ -3376,7 +3376,7 @@ const recipeData = [
             "800-900 g Pumpkin cut into cubes",
             "200-300 g Sweet potato cut into cubes",
             "4-6 sage leaves",
-            "1Â½-2 liters bouillon (homemade bone broth)",
+            "1½-2 liters bouillon (homemade bone broth)",
             "salt to taste"
         ],
         "recipeInstructions": [
