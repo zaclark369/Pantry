@@ -5142,12 +5142,13 @@ const recipeCategories = () => {
       //if array, push each entry
       if (Array.isArray(recipeData[i].recipeCategory)) {
         let recipeArray = recipeData[i].recipeCategory;
-        recipeArray.forEach((category) => array.push(category));
+        recipeArray.forEach((category) => array.push(category.toLowerCase()));
       } else {
-        //filter out special characters
         let categoryString = JSON.stringify(recipeData[i].recipeCategory);
-        let test = categoryString.replace(/\W/g, "");
-        array.push(test);
+        //filter out special characters
+        let sanitizedCategory = categoryString.replace(/\W/g, "");
+        //make lowercase
+        array.push(sanitizedCategory.toLowerCase());
       }
     }
   }
