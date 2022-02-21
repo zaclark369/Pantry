@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
                 include: [
                     {
                         model: Favorite,
-                        attributes: ['recipe_index']
+                        attributes: ['recipe_name', 'recipe_image', 'recipe_link']
                     }
                 ]
             }

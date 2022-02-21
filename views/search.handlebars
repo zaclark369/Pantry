@@ -1,11 +1,17 @@
 <div class="container pt-3">
     <div class="row">
         <div id="ingredients" class="col-6 col-md-4">
-            {{>ingredients }}
+            {{> ingredients}}
         </div>
 
+        {{#if loggedIn}}
         <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
-            {{>recipe-list }}
+            {{> recipe-list}}
         </div>
+        {{else}}
+        <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
+            {{> recipe-list-not-loggedIn}}
+        </div>
+        {{/if}}
     </div>
 </div>

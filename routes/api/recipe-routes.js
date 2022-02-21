@@ -28,7 +28,9 @@ router.post('/', async (req, res) => {
         const favorite = await Favorite.create(
             {
                 user_id: req.session.user_id,
-                recipe_index: req.body.recipe_index
+                recipe_name: req.body.recipe_name,
+                recipe_link: req.body.recipe_link,
+                recipe_image: req.body.recipe_image
             }
         )
         res.status(200).json({ favorite, message: 'Favorite successfully created!'});
