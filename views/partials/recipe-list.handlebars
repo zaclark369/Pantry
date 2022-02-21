@@ -1,13 +1,13 @@
 {{!-- <div class="recipe-categories">
   {{#each recipeData}}
-{{#if recipeCategory}}
-  <button type="button" class="btn btn-primary">{{recipeCategory}}</button>
-{{/if}}
+  {{#if recipeCategory}}
+  <button type="button" class="btn btn-primary">{{unique_categories recipeCategory}}</button>
+  {{/if}}
   {{/each}}
 </div> --}}
 
 {{#each recipeData}}
-<div class="card m-3 {{recipeIngredient}} hide" style="width: 10rem;">
+<div class="card m-3 {{recipeIngredient}} d-none" style="width: 10rem;">
   {{#if image}}
   <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
   {{/if}}

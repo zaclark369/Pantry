@@ -17,6 +17,7 @@ router.get('/favorites', (req, res) => {
 })
 
 router.get('/search', (req, res) => {
+    // dbRecipeData 
     res.render('search', { loggedIn: req.session.loggedIn });
 })
 

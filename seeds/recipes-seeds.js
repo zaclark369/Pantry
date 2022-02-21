@@ -4146,7 +4146,7 @@ const recipeData = [
         "totalTime": "PT20M",
         "keywords": "breakfast,low fat,low sodium,dairy free,vegetarian,pancake toppings,sauces,desserts,raspberries,strawberries,blueberries",
         "recipeYield": "9 servings",
-        "recipeCategory": "Dips, Salsas, and Sauces,Low Fat,Vegetarian,Dairy Free,Breakfast,Desserts",
+        "recipeCategory": ["Dips", "Salsas", "Sauces", "Low Fat", "Vegetarian", "Dairy Free","Breakfast", "Desserts"],
         "recipeCuisine": "American",
         "recipeIngredient": [
             "1/4 cup cold water",

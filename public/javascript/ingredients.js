@@ -1,3 +1,22 @@
+const fruitsVeggies = ["apples", "bananas", "broccoli", "bananas", "blueberries", "carrots", "celery", "cauliflower", "garlic", "ginger","lettuce", "jam", "kale", "lemon", "mango", "orange", "onion", "pepper", "pineapple", "peach", "potato", "raisins", "raspberries", "spinach", "squash","tomato", "watermelon", "zucchini"]
+
+const ingredientContainer = document.getElementById("ingredients");
+
+// Fruits & Veggies
+// create container
+var fruitsVeggiesContainer = document.createElement("div")
+ingredientContainer.appendChild(fruitsVeggiesContainer);
+
+// create buttons
+fruitsVeggies.forEach(ingredient => {
+var button = document.createElement("button");
+button.type = "button";
+button.innerHTML = ingredient;
+button.classList.add('btn');
+button.classList.add('btn-secondary');
+fruitsVeggiesContainer.appendChild(button);
+})
+
 function ingredientButtonHandler(event) {
   //highlight button
   if (event.currentTarget.classList.contains("btn-secondary")) {
@@ -13,12 +32,10 @@ function ingredientButtonHandler(event) {
     "." + event.currentTarget.textContent
   );
   recipeShow.forEach((recipe) => {
-    if (recipe.classList.contains("hide")) {
-      recipe.classList.remove("hide");
-      recipe.classList.add("show");
+    if (recipe.classList.contains("d-none")) {
+      recipe.classList.remove("d-none");
     } else {
-      recipe.classList.remove("show");
-      recipe.classList.add("hide");
+      recipe.classList.add("d-none");
     }
   });
 }
