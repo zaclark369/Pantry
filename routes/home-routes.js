@@ -16,7 +16,7 @@ router.get('/favorites', (req, res) => {
 })
 
 router.get('/search', (req, res) => {
-    res.render('search', { loggedIn: req.session.loggedIn });
+    res.render('search', { recipeData, loggedIn: req.session.loggedIn });
 })
 
 router.get('/recipe/:id', (req, res) => {

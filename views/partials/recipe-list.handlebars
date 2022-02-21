@@ -15,6 +15,16 @@
     <h5 class="card-title">{{name}}</h5>
     {{!-- <p class="card-text">{{description}}</p> --}}
     <a href={{url}} class="btn btn-primary">View Recipe</a>
+{{#each recipeData}}
+  <div class="card m-3" style="width: 10rem;" id="recipe-card">
+    {{#if image}}
+      <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
+    {{/if}}
+    <div class="card-body" data-id="{{@index}}">
+      <h5 class="card-title">{{name}}</h5>
+      <button type="submit" class="starbtn">&#10084;</button>
+      <a href={{url}} class="btn btn-primary">View Recipe</a>
+    </div>
   </div>
-</div>
 {{/each}}
+<script src="/javascript/favoritebtn.js"></script>

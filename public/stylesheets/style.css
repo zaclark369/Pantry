@@ -6,6 +6,23 @@
     --buttonselect: #86BD5F;
 }
 
+html, body, main {
+  margin: 0;
+ 
+}
+
+.starbtn {
+  display: inline-block;
+  margin: 0 auto;
+
+  border: none;
+  border-radius: 50%;
+}
+
+.wrapper {
+  margin: 0;
+  height: 100%;
+}
 
 .favorite-btn {
     background-color: var(--navbar);
@@ -41,11 +58,13 @@
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-color: brown;
+    background-image: url("../img/pantry_background.jpg");
+    /* background-color: brown; */
     background-repeat: no-repeat;
-    background-attachment: scroll;
+     background-attachment: scroll; 
     background-position: center center;
-    background-size: cover;
+    background-size: cover; 
+    height: 100%;
   }
   header.masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -63,3 +82,79 @@
   }
 
   
+
+/* for favorite button */
+/* 
+  .flexbox {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fav-btn {
+    background-image: url("../img/Favoritebtn.svg");
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @keyframes favme-anime {
+    0%   { 
+      opacity: 1;
+      font-size: ms(0);
+      -webkit-text-stroke-color: transparent;
+    }
+    25%	 { 
+      opacity:.6;
+      color: #FFF;
+      font-size: ms(-2);
+      -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color: #DC3232;
+    }
+    75%	 { 
+      opacity:.6;
+      color: #FFF;
+      font-size: ms(3);
+      -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color: #DC3232;
+    }
+    100% { 
+      opacity: 1;
+      font-size: ms(2);
+      -webkit-text-stroke-color: transparent;
+    }
+  }
+  
+  @keyframes favme-hover {
+    from {
+      font-size: ms(3);
+    }
+    80% {
+      font-size: ms(2);
+    }
+  }
+  
+  .favme {
+    display:block;
+    font-size: ms(2);
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all .2s ease;
+    color: #CBCDCE;
+    margin: 0;
+    
+    &.active {
+      color: #DC3232;
+    }
+    &:hover {
+      animation: favme-hover .3s infinite alternate;
+    }
+    &.is_animating {
+      animation: favme-anime .3s;
+    }
+  } */
