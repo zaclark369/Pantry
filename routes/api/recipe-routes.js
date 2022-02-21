@@ -27,7 +27,7 @@ router.post('/', async (req, res) => {
     try {
         const favorite = await Favorite.create(
             {
-                user_id: req.body.user_id,
+                user_id: req.session.user_id,
                 recipe_index: req.body.recipe_index
             }
         )

@@ -1,20 +1,23 @@
 saveFavorite = async event => {
     event.preventDefault();
-}
 
-const favorite = document.querySelector('#starbtn').value.trim();
 
-// get id of recipe
-const recipe_id = window.location.toString().split('/')[window.location.toString().split('/').length - 1];
+const favorite = document.querySelector('.starbtn');
+console.log(favorite);
+const id = favorite.closest('div').getAttribute('data-id')
+// .getAttribute("data-id").value;
+console.log(id);
+
+
 
 if (favorite) {
-    const response = await fetch('/api/users/recipe-routes',
+    const response = await fetch('/api/recipes',
     {
         method: 'POST',
         body: JSON.stringify(
             {
-            //   will come back to this, kinda confused and need to research more
-        ),
+            recipe_index: id
+            }),
         headers: { 'Content-Type': 'application/json' }
     })
 
@@ -25,6 +28,6 @@ if (favorite) {
         alert(response.statusText);
     }
     }
-}
+};
 
-document.querySelector('.starbtn').addEventListener('submit', saveFavorite)
+document.querySelector('.starbtn').addEventListener('click', saveFavorite)
