@@ -5,10 +5,12 @@
 
         {{#if loggedIn}}
         <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
+             {{> recipe-categories }}
             {{> recipe-list}}
         </div>
         {{else}}
         <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
+             {{> recipe-categories }}
             {{> recipe-list-not-loggedIn}}
         </div>
         {{/if}}
