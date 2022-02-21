@@ -17,8 +17,8 @@ router.get('/favorites', async (req, res) => {
                 }
             }
         )
-        favorites = favorites.map(favorite => favorite.get({ plain: true }))
-        console.log(favorites)
+        favorites = favorites.map(favorite => favorite.get({ plain: true }));
+        
         res.render('favorites', { favorites, loggedIn: req.session.loggedIn });
     } catch (err) {
 
