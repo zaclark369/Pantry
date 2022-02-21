@@ -5,8 +5,10 @@
     {{/if}}
     <div class="card-body" data-id="{{@index}}">
       <h5 class="card-title">{{name}}</h5>
-      <button type="submit" class="starbtn">&#10084;</button>
+      {{!-- <p class="card-text">{{description}}</p> --}}
       <a href={{url}} class="btn btn-primary">View Recipe</a>
+      <br>
+      <h4>Log in to save a favorite.</h4>
     </div>
   </div>
 {{/each}}

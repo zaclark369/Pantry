@@ -18,8 +18,14 @@ Favorite.init(
                 key: 'id'
             }
         },
-        recipe_index: {
-            type: DataTypes.INTEGER
+        recipe_name: {
+            type: DataTypes.STRING
+        },
+        recipe_link: {
+            type: DataTypes.STRING
+        },
+        recipe_image: {
+            type: DataTypes.STRING
         }
     },
     {

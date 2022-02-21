@@ -12,13 +12,11 @@ html, body, main {
 }
 
 .starbtn {
-  background-image: url("../img/Favoritebtn.svg");
-  /* background-color: black; */
-  display: block;
+  display: inline-block;
   margin: 0 auto;
-  text-indent: -9999px;
-  width: 28px;
-  height: 28px;
+
+  border: none;
+  border-radius: 50%;
 }
 
 .wrapper {
