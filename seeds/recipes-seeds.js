@@ -5152,8 +5152,8 @@ const recipeCategories = () => {
       }
     }
   }
-  //remove duplicates
-  let uniqueCategories = [...new Set(array)];
+  //remove duplicates and alphabetize
+  let uniqueCategories = [...new Set(array.sort())];
   return uniqueCategories;
 };
 
