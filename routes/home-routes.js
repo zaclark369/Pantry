@@ -1,14 +1,13 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { User, Recipe } = require('../models');
-const { recipeData } = require('../seeds/recipes-seeds');
+const { recipeData, recipeCategories } = require('../seeds/recipes-seeds');
 
 router.get('/search', async (req, res) => {
-        res.render('search', { recipeData });
+        res.render('search', { recipeData, recipeCategories });
     })
 
 router.get('/', (req, res) => {
-    // console.log('============================================');
     res.render('homepage', { loggedIn: req.session.loggedIn });
 })
 
@@ -17,7 +16,6 @@ router.get('/favorites', (req, res) => {
 })
 
 router.get('/search', (req, res) => {
-    // dbRecipeData 
     res.render('search', { loggedIn: req.session.loggedIn });
 })
 
