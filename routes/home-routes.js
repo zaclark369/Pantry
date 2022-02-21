@@ -1,10 +1,13 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { User, Favorite } = require('../models');
-const { recipeData } = require('../seeds/recipes-seeds');
+const { recipeData, recipeCategories } = require('../seeds/recipes-seeds');
+
+router.get('/search', async (req, res) => {
+        res.render('search', { recipeData, recipeCategories });
+    })
 
 router.get('/', (req, res) => {
-    // console.log('============================================');
     res.render('homepage', { loggedIn: req.session.loggedIn });
 })
 
