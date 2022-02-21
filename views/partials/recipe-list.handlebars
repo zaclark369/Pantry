@@ -7,14 +7,22 @@
 </div> --}}
 
 {{#each recipeData}}
-<div class="card m-3" style="width: 10rem;">
+<div class="card m-3" style="width: 10rem;" >
   {{#if image}}
   <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
   {{/if}}
-  <div class="card-body">
+  <div class="card-body" data-id=" {{@index}}">
     <h5 class="card-title">{{name}}</h5>
     {{!-- <p class="card-text">{{description}}</p> --}}
     <a href={{url}} class="btn btn-primary">View Recipe</a>
+    <br>
+    {{!-- <h5>Favorite</h3> --}}
+    {{!-- {{#if loggedIn}} --}}
+    <button class="starbtn">Favorite</button>
+    {{!-- {{else}} --}}
+        {{!-- <h4>Log in to save a favorite.</h4> --}}
+        {{!-- {{/if}} --}}
   </div>
 </div>
 {{/each}}
+<script src="/javascript/favoritebtn.js"></script>
