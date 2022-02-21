@@ -5126,10 +5126,6 @@ const recipeData = [
 ];
 
 const recipeCategories = () => {
-  //   let categoryString = JSON.stringify(category)
-  //     .toLowerCase()
-  //     .replace(/[^0-9a-z]/gi, " ");
-
   const category = recipeData.map((recipe) => recipe.recipeCategory);
   var array = [];
 
