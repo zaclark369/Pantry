@@ -1,5 +1,5 @@
 {{#each recipeData}}
-  <div class="card m-3 d-none {{recipeIngredient}}" style="width: 10rem;" id="recipe-card">
+  <div class="card m-3 d-none {{recipeIngredient}} {{recipeCategory}}" style="width: 10rem;" id="recipe-card">
     {{#if image}}
       <img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}>
     {{/if}}

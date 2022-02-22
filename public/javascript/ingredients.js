@@ -17,7 +17,7 @@ button.classList.add('btn-secondary');
 fruitsVeggiesContainer.appendChild(button);
 })
 
-function ingredientButtonHandler(event) {
+function buttonHandler(event) {
   //highlight button
   if (event.currentTarget.classList.contains("btn-secondary")) {
     event.currentTarget.classList.remove("btn-secondary");
@@ -40,7 +40,13 @@ function ingredientButtonHandler(event) {
   });
 }
 
-//attach event listener to each button
+//attach event listeners to buttons
+//ingredients
 document.querySelectorAll("#ingredients button").forEach((button) => {
-  button.addEventListener("click", ingredientButtonHandler);
+  button.addEventListener("click", buttonHandler);
+});
+
+//categories
+document.querySelectorAll(".recipe-categories button").forEach((button) => {
+  button.addEventListener("click", buttonHandler);
 });
