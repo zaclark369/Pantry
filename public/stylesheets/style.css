@@ -48,7 +48,7 @@ html, body, main {
 
 #ingredients {
   background-color: var(--favoritebar);
-  height: 100vh;
+  height: 100%;
 }
 
 /* size dependant and addition of masthead */
@@ -81,6 +81,17 @@ html, body, main {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
+  .ingredCont {
+    margin: 1px;
+    border: 2px solid darkgreen;
+  }
+
+  .ingredBtn {
+    margin: .3px;
+    text-align: center;
+    border: 1px solid black;
+   box-shadow: .5px .5px black;
+  }
   
 
 /* for favorite button */

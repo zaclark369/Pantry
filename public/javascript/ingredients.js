@@ -52,8 +52,9 @@ const ingredientContainer = document.getElementById("ingredients");
 // Fruits & Veggies
 // create container
 var fruitsVeggiesContainer = document.createElement("div");
-fruitsVeggiesContainer.setAttribute("class", "card-content");
+fruitsVeggiesContainer.setAttribute("class", "card-content ingredCont");
 ingredientContainer.appendChild(fruitsVeggiesContainer);
+// would like to add container title in text to the top of each card
 
 
 // create buttons
@@ -63,12 +64,13 @@ fruitsVeggies.forEach((ingredient) => {
   button.innerHTML = ingredient;
   button.classList.add("btn");
   button.classList.add("btn-secondary");
+  button.classList.add("ingredBtn");
   fruitsVeggiesContainer.appendChild(button);
 });
 // dairy
 // create container
 var dairyContainer = document.createElement("div");
-dairyContainer.setAttribute("class", "card-content")
+dairyContainer.setAttribute("class", "card-content ingredCont")
 ingredientContainer.appendChild(dairyContainer);
 // create buttons
 dairy.forEach((ingredient) => {
@@ -77,13 +79,19 @@ dairy.forEach((ingredient) => {
   button.innerHTML = ingredient;
   button.classList.add("btn");
   button.classList.add("btn-secondary");
+  button.classList.add("ingredBtn");
   dairyContainer.appendChild(button);
 });
 // meat
 // create container
 var meatContainer = document.createElement("div");
-meatContainer.setAttribute("class", "card-content")
+meatContainer.setAttribute("class", "card-content ingredCont")
+// var parElement = document.createElement("h3");
+// var meatText = document.createTextNode("Meat");
+// parElement.appendChild(meatText);
+// parElement.appendChild(meatContainer);
 ingredientContainer.appendChild(meatContainer);
+
 // create buttons
 meat.forEach((ingredient) => {
   var button = document.createElement("button");
@@ -91,12 +99,13 @@ meat.forEach((ingredient) => {
   button.innerHTML = ingredient;
   button.classList.add("btn");
   button.classList.add("btn-secondary");
+  button.classList.add("ingredBtn");
   meatContainer.appendChild(button);
 });
 // staples
 // create container
 var staplesContainer = document.createElement("div");
-staplesContainer.setAttribute("class", "card-content")
+staplesContainer.setAttribute("class", "card-content ingredCont")
 ingredientContainer.appendChild(staplesContainer);
 // create buttons
 staples.forEach((ingredient) => {
@@ -105,12 +114,13 @@ staples.forEach((ingredient) => {
   button.innerHTML = ingredient;
   button.classList.add("btn");
   button.classList.add("btn-secondary");
+  button.classList.add("ingredBtn");
   staplesContainer.appendChild(button);
 });
 // alcohol
 // create container
 var alcoholContainer = document.createElement("div");
-alcoholContainer.setAttribute("class", "card-content")
+alcoholContainer.setAttribute("class", "card-content ingredCont")
 ingredientContainer.appendChild(alcoholContainer);
 
 // create buttons
@@ -120,6 +130,7 @@ alcohol.forEach((ingredient) => {
   button.innerHTML = ingredient;
   button.classList.add("btn");
   button.classList.add("btn-secondary");
+  button.classList.add("ingredBtn");
   alcoholContainer.appendChild(button);
 });
 
