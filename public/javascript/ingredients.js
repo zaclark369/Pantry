@@ -1,4 +1,10 @@
-const fruitsVeggies = ["apples", "bananas", "broccoli", "bananas", "blueberries", "carrots", "celery", "cauliflower", "garlic", "ginger","lettuce", "jam", "kale", "lemon", "mango", "orange", "onion", "pepper", "pineapple", "peach", "potato", "raisins", "raspberries", "spinach", "squash","tomato", "watermelon", "zucchini"]
+const fruitsVeggies = ["apples", "asparagus", "bananas", "broccoli", "bananas", "blueberries", "carrots", "celery", "cauliflower", "cucumbers", "garlic", "ginger","lettuce", "jam", "kale", "lemon", "mango", "mushroom", "olives", "orange", "onion", "pepper", "pineapple", "peach", "potato", "raisins", "raspberries", "spinach", "squash","tomato", "watermelon", "zucchini"]
+
+const dairy = ["cream", "cheese", "alfredo", "butter", "milk", "mayonnaise", "yogurt"];
+
+const meat = ["beef", "chicken", "fish", "pork"];
+const staples = ["sugar", "flour", "beans", "pasta", "eggs", "oil"];
+const alcohol = ["rum", "gin", "mezcal", "wine"];
 
 const ingredientContainer = document.getElementById("ingredients");
 
@@ -15,6 +21,66 @@ button.innerHTML = ingredient;
 button.classList.add('btn');
 button.classList.add('btn-secondary');
 fruitsVeggiesContainer.appendChild(button);
+})
+
+// dairy
+// create container
+var dairyContainer = document.createElement("div")
+ingredientContainer.appendChild(dairyContainer);
+
+// create buttons
+dairy.forEach(ingredient => {
+var button = document.createElement("button");
+button.type = "button";
+button.innerHTML = ingredient;
+button.classList.add('btn');
+button.classList.add('btn-secondary');
+dairyContainer.appendChild(button);
+})
+
+// meat
+// create container
+var meatContainer = document.createElement("div")
+ingredientContainer.appendChild(meatContainer);
+
+// create buttons
+meat.forEach(ingredient => {
+var button = document.createElement("button");
+button.type = "button";
+button.innerHTML = ingredient;
+button.classList.add('btn');
+button.classList.add('btn-secondary');
+meatContainer.appendChild(button);
+})
+
+// staples
+// create container
+var meatContainer = document.createElement("div")
+ingredientContainer.appendChild(meatContainer);
+
+// create buttons
+meat.forEach(ingredient => {
+var button = document.createElement("button");
+button.type = "button";
+button.innerHTML = ingredient;
+button.classList.add('btn');
+button.classList.add('btn-secondary');
+meatContainer.appendChild(button);
+})
+
+// alcohol
+// create container
+var meatContainer = document.createElement("div")
+ingredientContainer.appendChild(meatContainer);
+
+// create buttons
+meat.forEach(ingredient => {
+var button = document.createElement("button");
+button.type = "button";
+button.innerHTML = ingredient;
+button.classList.add('btn');
+button.classList.add('btn-secondary');
+meatContainer.appendChild(button);
 })
 
 function ingredientButtonHandler(event) {
