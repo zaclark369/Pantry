@@ -26,7 +26,7 @@
   - `source db/schema.sql`
   - `quit`
   - `npm start`
-  Can also be found on heroku @ ____
+  Can also be found on heroku @ https://whispering-reef-71968.herokuapp.com/
 
   ## Usage
   
