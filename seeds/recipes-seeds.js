@@ -1447,7 +1447,7 @@ const recipeData = [
         url: "https://www.midgetmomma.com/tasty-tuesday-fancy-grilled-cheese/#wprm-recipe-188357-step-0-5",
       },
     ],
-    recipeCategory: ["Main"],
+    recipeCategory: ["main course"],
     recipeCuisine: ["American"],
     keywords: "grilled cheese, mushroom, red pepper",
     "@id":
@@ -2307,7 +2307,7 @@ const recipeData = [
     cookTime: "PT45M",
     totalTime: "PT8M",
     recipeYield: ["2", "2 loaves"],
-    recipeCategory: "Breads",
+    recipeCategory: "bread",
     cookingMethod: "Baked",
     recipeCuisine: "Canadian",
     "@id": "https://www.crumbblog.com/cranberry-danish-twist-bread/#recipe",
@@ -2541,7 +2541,7 @@ const recipeData = [
     cookTime: "PT10M",
     totalTime: "PT30M",
     recipeYield: ["30", "30-36 cookies"],
-    recipeCategory: "Holiday cookies",
+    recipeCategory: "Cookies",
     cookingMethod: "Baking",
     recipeCuisine: "American",
     "@id":
@@ -4194,18 +4194,26 @@ const recipeData = [
     prepTime: "PT5M",
     cookTime: "PT15M",
     totalTime: "PT20M",
-    keywords:
-      "breakfast,low fat,low sodium,dairy free,vegetarian,pancake toppings,sauces,desserts,raspberries,strawberries,blueberries",
+    keywords: [
+      "breakfast",
+      "low fat",
+      "low sodium",
+      "dairy free",
+      "vegetarian",
+      "pancake toppings",
+      "sauce",
+      "Dessert",
+    ],
     recipeYield: "9 servings",
     recipeCategory: [
       "Dips",
       "Salsas",
-      "Sauces",
+      "sauce",
       "Low Fat",
       "Vegetarian",
       "Dairy Free",
       "Breakfast",
-      "Desserts",
+      "dessert",
     ],
     recipeCuisine: "American",
     recipeIngredient: [
@@ -4254,7 +4262,7 @@ const recipeData = [
     keywords:
       "milk,cinnamon,sugar,vanilla,applesauce,whole wheat bread,skillet,griddle,breakfast,low fat",
     recipeYield: "6 servings",
-    recipeCategory: "breakfast,low fat",
+    recipeCategory: ["breakfast","low fat"],
     recipeCuisine: "American",
     recipeIngredient: [
       "2 eggs",
@@ -4309,7 +4317,7 @@ const recipeData = [
     keywords:
       "baking apple,cinnamon,dried cranberries,brown sugar,margarine,microwave,breakfast,dessert",
     recipeYield: "1 serving",
-    recipeCategory: "Breakfast,Dessert",
+    recipeCategory: ["Breakfast","Dessert"],
     recipeCuisine: "American",
     recipeIngredient: [
       "1 baking apple (try Golden Delicious, Granny Smith, Jonathan, or Braeburn)",
@@ -4426,7 +4434,7 @@ const recipeData = [
     keywords:
       "breakfast,vegetarian,eggs,milk,vanilla,flour,sugar,cinnamon,butter,cherries,almonds,margarine,bake,golden brown",
     recipeYield: "4 servings",
-    recipeCategory: "breakfast,vegetarian",
+    recipeCategory: ["breakfast","vegetarian"],
     recipeCuisine: "American",
     recipeIngredient: [
       "3 eggs",
@@ -4488,10 +4496,9 @@ const recipeData = [
     prepTime: "PT15M",
     cookTime: "PT5M",
     totalTime: "PT20M",
-    keywords:
-      "side dishes,breakfast,snacks,low fat,vegetarian, 30 minutes or less,cornmeal,flour,eggs,milk,corn,skillet",
+    keywords: ["side dish", "breakfast", "snack", "low fat", "vegetarian"],
     recipeYield: "6 servings",
-    recipeCategory: "side dishes,breakfast,snacks,low fat,vegetarian",
+    recipeCategory: ["side dish","breakfast","snack","low fat", "vegetarian"],
     recipeCuisine: "American",
     recipeIngredient: [
       "1/2 cup cornmeal",
@@ -4603,10 +4610,9 @@ const recipeData = [
     prepTime: "PT10M",
     cookTime: "PT0M",
     totalTime: "PT10M",
-    keywords:
-      "drinks,breakfast,low fat,orange juice,smoothie,yogurt,banana,spinach,ice,blender",
+    keywords: ["drink", "breakfast", "low fat", "smoothie"],
     recipeYield: "4 servings",
-    recipeCategory: "drinks,breakfast,low fat",
+    recipeCategory: ["drink", "breakfast", "low fat", "smoothie"],
     recipeCuisine: "American",
     recipeIngredient: [
       "1 cup orange juice",
@@ -5133,14 +5139,21 @@ const recipeCategories = () => {
   for (i = 0; i < recipeData.length; i++) {
     //if not undefined
     if (recipeData[i].recipeCategory) {
-      //filter out special characters
-      let categoryString = JSON.stringify(recipeData[i].recipeCategory);
-      let test = categoryString.replace(/\W/g, "");
-      array.push(test);
+      //if array, push each entry
+      if (Array.isArray(recipeData[i].recipeCategory)) {
+        let recipeArray = recipeData[i].recipeCategory;
+        recipeArray.forEach((category) => array.push(category.toLowerCase()));
+      } else {
+        let categoryString = JSON.stringify(recipeData[i].recipeCategory);
+        //filter out special characters
+        let sanitizedCategory = categoryString.replace(/\W/g, "");
+        //make lowercase
+        array.push(sanitizedCategory.toLowerCase());
+      }
     }
   }
-  //remove duplicates
-  let uniqueCategories = [...new Set(array)];
+  //remove duplicates and alphabetize
+  let uniqueCategories = [...new Set(array.sort())];
   return uniqueCategories;
 };
 
