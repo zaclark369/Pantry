@@ -60,26 +60,17 @@ main {
   cursor: pointer;
 }
 
-#ingredients {
-  background-color: var(--green);
-  height: 100%;
-}
-
+/* HOMEPAGE */
 /* size dependant and addition of masthead */
-
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   color: #fff;
   text-align: center;
-  height: calc(100vh - 110px);
-  background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url('../img/masthead-bg-resize.jpg');
-  background-repeat:repeat, no-repeat;
+  height: calc(100vh - 80px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/masthead-bg-resize.jpg");
+  background-repeat: repeat, no-repeat;
   background-size: cover;
 }
 
@@ -104,6 +95,21 @@ header.masthead .masthead-heading {
   margin-bottom: 0.5rem;
 }
 
+.masthead .btn-success {
+  border: none;
+  width: 15vw;
+}
+
+.navbar i {
+  position: absolute;
+  font-size: 25px;
+  right: 10;
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* INGREDIENTS */
 .ingredCont {
   margin: 4px;
   border: 2px solid darkgreen;
@@ -118,7 +124,7 @@ header.masthead .masthead-heading {
   box-shadow: 0.5px 0.5px black;
 }
 
-.masthead .btn-success {
-  border: none;
-  width: 15vw;
+#ingredients {
+  background-color: var(--green);
+  height: 100%;
 }
