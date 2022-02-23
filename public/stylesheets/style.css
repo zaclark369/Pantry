@@ -4,6 +4,7 @@
     --favoritebar: #86BD5F;
     --pantrybackground: #FDFFF4;
     --buttonselect: #86BD5F;
+    --mainText:'JetBrains Mono', monospace;
 }
 
 html, body, main {
@@ -43,10 +44,6 @@ html, body, main {
     background-color: var(--navbar);
 }
 
-/* #main {
-  background-color: brown;
-} */
-
 .card-body {
   background-color: var(--navbar);
 }
@@ -80,21 +77,20 @@ html, body, main {
 
   .masthead-heading,
   .masthead-subheading {
-    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+    /* text-shadow: 0px 0px 7px rgb(0, 0, 0); */
+    font-family: var(--mainText);
   }
 
   header.masthead .masthead-subheading {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 25px;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   header.masthead .masthead-heading {
     font-size: 3.25rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .ingredCont {
@@ -110,80 +106,3 @@ html, body, main {
     border: 1px solid black;
    box-shadow: .5px .5px black;
   }
-  
-
-/* for favorite button */
-/* 
-  .flexbox {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .fav-btn {
-    background-image: url("../img/Favoritebtn.svg");
-    display:flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  @keyframes favme-anime {
-    0%   { 
-      opacity: 1;
-      font-size: ms(0);
-      -webkit-text-stroke-color: transparent;
-    }
-    25%	 { 
-      opacity:.6;
-      color: #FFF;
-      font-size: ms(-2);
-      -webkit-text-stroke-width: 1px;
-       -webkit-text-stroke-color: #DC3232;
-    }
-    75%	 { 
-      opacity:.6;
-      color: #FFF;
-      font-size: ms(3);
-      -webkit-text-stroke-width: 1px;
-       -webkit-text-stroke-color: #DC3232;
-    }
-    100% { 
-      opacity: 1;
-      font-size: ms(2);
-      -webkit-text-stroke-color: transparent;
-    }
-  }
-  
-  @keyframes favme-hover {
-    from {
-      font-size: ms(3);
-    }
-    80% {
-      font-size: ms(2);
-    }
-  }
-  
-  .favme {
-    display:block;
-    font-size: ms(2);
-    width: auto;
-    height: auto;
-    cursor: pointer;
-    box-shadow: none;
-    transition: all .2s ease;
-    color: #CBCDCE;
-    margin: 0;
-    
-    &.active {
-      color: #DC3232;
-    }
-    &:hover {
-      animation: favme-hover .3s infinite alternate;
-    }
-    &.is_animating {
-      animation: favme-anime .3s;
-    }
-  } */
