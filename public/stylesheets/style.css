@@ -66,8 +66,8 @@ html, body, main {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
     text-align: center;
-    color: #fff;
-    background-image: url("../img/pantry_background.jpg");
+    color: black;
+    background-image: url("../img/choppingboard.jpg");
     /* background-color: brown; */
     background-repeat: no-repeat;
      background-attachment: scroll; 
