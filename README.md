@@ -3,7 +3,7 @@
 
   ## Description:
   ___
- Have you ever wanted to make dinner, but cant think of anything. This application will take what you have in your inventory/pantry and suggest appropriate recipes using the ingredients you already have. Create an account and you can save your favorites for future viewing. Keyword buttons will help you quickly reach an easy meal to make, and visual recipe cards will show you how good home cooking can look.
+ Have you ever wanted to make dinner but can't think of anything. This application will take what you have in your pantry and suggest appropriate recipes using the ingredients you already have. Create an account and you can save your favorites for future viewing. Keyword buttons will help you quickly reach an easy meal to make and visual recipe cards will show you how good home cooking can look.
 
   ## Table of Contents:
   ___
@@ -53,4 +53,9 @@
   Zachary Clark [GitHub](https://github.com/zaclark369)
   Diego Marrs [GitHub](https://github.com/StaticCloud)
   Katie Churchwell [GitHub](https://github.com/katiechurchwell)
+  
+  ## Credit
+  ___
+  Database Code :
+  
   
