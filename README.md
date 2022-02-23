@@ -35,7 +35,7 @@
   ## Video
   
  Here are some images:
-[![landing page](./public/img/screenshotHomepage.png)](________ "Demo Video")
+[![landing page](./public/img/screenshotHomepage.png)](_______ "Demo Video")
 
 
 
