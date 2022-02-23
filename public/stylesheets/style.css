@@ -12,34 +12,6 @@ main {
   margin: 0;
 }
 
-.starbtn {
-  display: inline-block;
-  margin: 0 auto;
-
-  border: none;
-  border-radius: 50%;
-}
-
-.wrapper {
-  margin: 0;
-  height: 100%;
-}
-
-.navbar-brand {
-  font-size: 2.25rem;
-  padding-left: 0.4rem;
-}
-
-.navbar {
-  padding-left: 0.6rem;
-}
-
-.favorite-btn {
-  background-color: var(--navbar);
-  border-color: black;
-  margin: 5 px;
-}
-
 .bg-grey {
   background-color: var(--navbar);
 }
@@ -52,12 +24,52 @@ main {
   height: fit-content;
 }
 
+.wrapper {
+  margin: 0;
+  height: 100%;
+}
+
+/* BUTTONS */
+.favorite-btn {
+  background-color: var(--navbar);
+  border-color: black;
+  margin: 5 px;
+}
+
 .remove-btn {
   display: inline-block;
 }
 
 .remove-btn:hover {
   cursor: pointer;
+}
+
+.starbtn {
+  display: inline-block;
+  margin: 0 auto;
+
+  border: none;
+  border-radius: 50%;
+}
+
+/* NAVIGATION BAR */
+.navbar-brand {
+  font-size: 2.25rem;
+  padding-left: 0.4rem;
+}
+
+.navbar i {
+  position: absolute;
+  font-size: 25px;
+  right: 10;
+  outline: none;
+  text-decoration: none;
+  color: black;
+  top: 30;
+}
+
+.navbar {
+  padding-left: 0.6rem;
 }
 
 /* HOMEPAGE */
@@ -98,15 +110,6 @@ header.masthead .masthead-heading {
 .masthead .btn-success {
   border: none;
   width: 15vw;
-}
-
-.navbar i {
-  position: absolute;
-  font-size: 25px;
-  right: 10;
-  outline: none;
-  text-decoration: none;
-  color: black;
 }
 
 /* INGREDIENTS */
