@@ -50,9 +50,9 @@
   ## Questions?
   ___
   Please contact us at:
-  Zachary Clark [GitHub](https://github.com/zaclark369)
-  Diego Marrs [GitHub](https://github.com/StaticCloud)
-  Katie Churchwell [GitHub](https://github.com/katiechurchwell)
+  - Zachary Clark [GitHub](https://github.com/zaclark369)
+  - Diego Marrs [GitHub](https://github.com/StaticCloud)
+  - Katie Churchwell [GitHub](https://github.com/katiechurchwell)
   
   ## Credit
   ___
