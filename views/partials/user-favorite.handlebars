@@ -2,12 +2,14 @@
     {{#each favorites}}
         <div class="col-4 mb-5">
             <div class="card" data-id="{{id}}">
-                <div class="card-image" style="background-image: url('{{recipe_image}}'); background-size: cover; height: 300px; position: relative;"></div>
+                <div class="card-image" style="background-image: url('{{recipe_image}}'); background-size: cover; height: 300px; position: relative;">
+                    <!--<button type="click" class="btn btn-danger remove-btn">Remove</button>-->
+                    <h2 type="click" class="remove-btn">❌</h2>
+                </div>
                 <div class="card-body">
                     <h3 class="card-title">{{recipe_name}}</h3>
                     <div>
                         <a href="{{recipe_link}}" target="_blank"><button class="btn btn-primary">View</button></a>
-                        <button type="click" class="btn btn-danger remove-btn">Remove</button>
                     </div>
                 </div>
             </div>

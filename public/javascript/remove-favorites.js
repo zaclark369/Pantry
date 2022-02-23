@@ -1,5 +1,5 @@
 removeFavorite = async event => {
-    if (event.target.textContent == "Remove") {
+    if (event.target.textContent == "❌") {
         const recipe_id = event.target.closest("div[data-id]").getAttribute("data-id");
 
         const response = await fetch(`/api/recipes/${recipe_id}`, { method: 'DELETE' });
