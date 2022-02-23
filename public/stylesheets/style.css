@@ -1,15 +1,15 @@
 /* SITE STYLE PALETTE */
 :root {
-    --navbar: #D9D9D9;
-    --favoritebar: #86BD5F;
-    --pantrybackground: #FDFFF4;
-    --buttonselect: #86BD5F;
-    --mainText:'JetBrains Mono', monospace;
+  --navbar: #d9d9d9;
+  --pantrybackground: #fdfff4;
+  --green: #86bd5f;
+  --mainText: "JetBrains Mono", monospace;
 }
 
-html, body, main {
+html,
+body,
+main {
   margin: 0;
- 
 }
 
 .starbtn {
@@ -27,21 +27,21 @@ html, body, main {
 
 .navbar-brand {
   font-size: 2.25rem;
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
 .navbar {
-  padding-left: .6rem;
+  padding-left: 0.6rem;
 }
 
 .favorite-btn {
-    background-color: var(--navbar);
-    border-color: black;
-    margin: 5 px;
+  background-color: var(--navbar);
+  border-color: black;
+  margin: 5 px;
 }
 
 .bg-grey {
-    background-color: var(--navbar);
+  background-color: var(--navbar);
 }
 
 .card-body {
@@ -61,56 +61,65 @@ html, body, main {
 }
 
 #ingredients {
-  background-color: var(--favoritebar);
+  background-color: var(--green);
   height: 100%;
 }
 
 /* size dependant and addition of masthead */
 
-  header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    color: #fff;
-    text-align: center;
-    background-image: url("../img/ella-olsson-rD3YrnhTmf0-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: center 75%;
-    background-size: cover; 
-    height: calc(100vh - 110px);
-  }
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  color: #fff;
+  text-align: center;
+  height: calc(100vh - 110px);
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('../img/masthead-bg-resize.jpg');
+  background-repeat:repeat, no-repeat;
+  background-size: cover;
+}
 
-  header > a {
-    filter: grayscale(0%);
-  }
+header > a {
+  filter: grayscale(0%);
+}
 
-  .masthead-heading,
-  .masthead-subheading {
-    /* text-shadow: 0px 0px 7px rgb(0, 0, 0); */
-    font-family: var(--mainText);
-  }
+.masthead-heading,
+.masthead-subheading {
+  font-family: var(--mainText);
+}
 
-  header.masthead .masthead-subheading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 25px;
-  }
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
 
-  header.masthead .masthead-heading {
-    font-size: 3.25rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
 
-  .ingredCont {
-    margin: 4px;
-    border: 2px solid darkgreen;
-    border-radius: 5px;
-    padding: auto;
-  }
+.ingredCont {
+  margin: 4px;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+  padding: auto;
+}
 
-  .ingredBtn {
-    margin: .3px;
-    text-align: center;
-    border: 1px solid black;
-   box-shadow: .5px .5px black;
-  }
+.ingredBtn {
+  margin: 0.3px;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0.5px 0.5px black;
+}
+
+.masthead .btn-success {
+  background-color: var(--green);
+  border: none;
+  width: 15vw;
+}
