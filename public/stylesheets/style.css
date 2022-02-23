@@ -16,17 +16,13 @@ main {
   background-color: var(--navbar);
 }
 
+/* CARDS */
 .card-body {
   background-color: var(--navbar);
 }
 
 .card {
   height: fit-content;
-}
-
-.wrapper {
-  margin: 0;
-  height: 100%;
 }
 
 /* BUTTONS */
@@ -53,6 +49,11 @@ main {
 }
 
 /* NAVIGATION BAR */
+.wrapper {
+  margin: 0;
+  height: 100%;
+}
+
 .navbar-brand {
   font-size: 2.25rem;
   padding-left: 0.4rem;
