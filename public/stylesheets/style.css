@@ -52,6 +52,14 @@ html, body, main {
   height: fit-content;
 }
 
+.remove-btn {
+  display: inline-block;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+}
+
 #ingredients {
   background-color: var(--favoritebar);
   height: 100%;
