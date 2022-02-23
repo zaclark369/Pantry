@@ -19,7 +19,7 @@ saveFavorite = async event => {
         })
 
         if (response.ok) {
-            console.log("Success!")
+            alert(`${name} added to favorites!`)
         } else {
             alert(response.statusText);
         }
