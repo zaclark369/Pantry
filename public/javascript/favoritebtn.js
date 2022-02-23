@@ -1,12 +1,8 @@
 saveFavorite = async event => {
-    event.preventDefault();
-
-    const item = event.target;
-
-    if (item.className == "starbtn") {
-        const name = item.closest("div").querySelector("h5").innerText;
-        const image = item.closest("#recipe-card").querySelector("img").src;
-        const link = item.closest("div").querySelector("a").href;
+    if (event.target.className == "favorite") {
+        const name = event.target.closest(".card").querySelector(".card-title").innerText;
+        const image = event.target.closest(".card").querySelector("div[data-image]").getAttribute("data-image");
+        const link = event.target.closest(".card").querySelector(".card-body a").href;
         
         console.log(name, image, link);
 
@@ -23,8 +19,7 @@ saveFavorite = async event => {
         })
 
         if (response.ok) {
-            document.location.reload();
-            comment.value = '';
+            console.log("Success!")
         } else {
             alert(response.statusText);
         }

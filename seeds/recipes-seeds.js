@@ -1447,7 +1447,7 @@ const recipeData = [
         url: "https://www.midgetmomma.com/tasty-tuesday-fancy-grilled-cheese/#wprm-recipe-188357-step-0-5",
       },
     ],
-    recipeCategory: ["Main"],
+    recipeCategory: ["main course"],
     recipeCuisine: ["American"],
     keywords: "grilled cheese, mushroom, red pepper",
     "@id":
