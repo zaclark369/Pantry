@@ -10,13 +10,5 @@ module.exports = {
     } else if (word) {
       return word.toLowerCase();
     }
-  },
-  // hasRecipe: (category) => {
-  //   var recipeCards = document.querySelectorAll(".card");
-  //   for (i = 0; i < recipeCards.length; i++) {
-  //     if (recipeCards.contains(category)) {
-  //       return category;
-  //     }
-  //   }
-  // },
+  }
 };
