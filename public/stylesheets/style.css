@@ -14,6 +14,20 @@ main {
 }
 
 /* CARDS AND RECIPE LIST*/
+#pan {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: var(--mainText);
+}
+
+#pan img {
+  width: 150px;
+  padding: 5px;
+}
+
 #recipe-list {
   height: 100%;
 }

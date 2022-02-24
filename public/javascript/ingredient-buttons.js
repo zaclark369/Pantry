@@ -1,4 +1,4 @@
-// CLICK EVENTS
+//ingredient button click event
 function buttonHandler(event) {
   //highlight button
   if (event.currentTarget.classList.contains("btn-secondary")) {
@@ -20,15 +20,13 @@ function buttonHandler(event) {
       recipe.classList.add("d-none");
     }
   });
-  //   if (revealRecipes.classList.contains("d-none")) {
-  //     revealRecipes.classList.remove("d-none");
-  //   } else revealRecipes.classList.add("d-none");
 
-  console.log(revealRecipes.classList);
+  //remove pan
+  const pan = document.getElementById("pan");
+  pan.classList.add("d-none")
 }
 
 //attach event listeners to buttons
-//ingredients
 document.querySelectorAll("#ingredients button").forEach((button) => {
   button.addEventListener("click", buttonHandler);
 });
