@@ -67,11 +67,6 @@ main {
   background-color: var(--navbar);
 }
 
-.navbar-brand {
-  font-size: 2.25rem;
-  padding-left: 0.4rem;
-}
-
 .navbar i {
   position: absolute;
   font-size: 25px;
