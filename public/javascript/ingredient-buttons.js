@@ -13,16 +13,16 @@ function buttonHandler(event) {
   const keyword = event.currentTarget.textContent;
   var revealRecipes = document.querySelectorAll(`[class*=${keyword}]`);
 
-  revealRecipes.forEach(function(recipe){
+  revealRecipes.forEach(function (recipe) {
     if (recipe.classList.contains("d-none")) {
-        recipe.classList.remove("d-none")
+      recipe.classList.remove("d-none");
     } else {
-        recipe.classList.add("d-none")
+      recipe.classList.add("d-none");
     }
   });
-//   if (revealRecipes.classList.contains("d-none")) {
-//     revealRecipes.classList.remove("d-none");
-//   } else revealRecipes.classList.add("d-none");
+  //   if (revealRecipes.classList.contains("d-none")) {
+  //     revealRecipes.classList.remove("d-none");
+  //   } else revealRecipes.classList.add("d-none");
 
   console.log(revealRecipes.classList);
 }

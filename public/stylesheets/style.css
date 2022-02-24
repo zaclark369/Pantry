@@ -3,7 +3,7 @@
   --navbar: #d9d9d9;
   --pantrybackground: #fdfff4;
   --green: #86bd5f;
-  --beige: #FDFFF4;
+  --beige: #fdfff4;
   --mainText: "JetBrains Mono", monospace;
 }
 
@@ -15,11 +15,11 @@ main {
 
 /* CARDS AND RECIPE LIST*/
 #recipe-list {
-  height: 100%
+  height: 100%;
 }
 
 #recipe-list .btn {
-  width: 100%
+  width: 100%;
 }
 
 .card-body {
@@ -34,7 +34,7 @@ main {
 /* card icons */
 #recipe-list h2 a,
 .favorite,
-.remove-btn{
+.remove-btn {
   text-decoration: none;
   float: right;
 }
@@ -129,7 +129,8 @@ header.masthead .masthead-heading {
   margin-bottom: 20px;
 }
 
-.ingredBtn, .recipe-categories button {
+.ingredBtn,
+.recipe-categories button {
   margin: 2px;
   text-align: center;
   border: none;
@@ -146,5 +147,5 @@ header.masthead .masthead-heading {
 #ingredients h2 {
   text-align: center;
   padding: 5px;
-  color: var(--beige)
+  color: var(--beige);
 }

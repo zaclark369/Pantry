@@ -1,7 +1,8 @@
-const fruitsVeggies = ["apple","banana","broccoli","blueberries","carrots","celery","cauliflower","cucumber","garlic","ginger","lettuce","kale","lemon","mango","mushroom","orange","onion","pepper","pineapple","peach","potato","raisin","raspberries","spinach","squash","tomato","watermelon","zucchini"];
+const fruitsVeggies = ["apple","asparagus","banana","broccoli","blueberries","carrots","celery","cauliflower","cucumber","garlic","ginger","lettuce","jam","kale","lemon","mango","mushroom","olive","orange","onion","pepper","pineapple","peach","potato","raisin","raspberries","spinach","squash","tomato","watermelon","zucchini"];
 const dairy = ["cream","cheese","alfredo","butter","milk","mayonnaise","yogurt"];
 const meat = ["beef", "chicken", "fish", "pork"];
 const staples = ["sugar", "flour", "beans", "pasta", "eggs", "oil"];
+const alcohol = ["rum", "gin", "mezcal", "wine"];
 
 const ingredientContainer = document.getElementById("ingredients");
 const fruitsVeggiesContainer = document.getElementById("fruitsVeggies");
