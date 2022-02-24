@@ -19,7 +19,7 @@ main {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   font-family: var(--mainText);
 }
 
@@ -128,13 +128,18 @@ header.masthead .masthead-heading {
 /* INGREDIENTS */
 #ingredients h4 {
   text-align: center;
+  font-family: var(--mainText);
+  padding: 5px;
+  font-size: 1.2em;
 }
 
 .ingredCont {
   margin: 5px;
+  padding: 1.5px;
   background-color: var(--beige);
   border-radius: 5px;
   margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .ingredBtn,
@@ -149,11 +154,9 @@ header.masthead .masthead-heading {
 #ingredients {
   background-color: var(--green);
   height: 100%;
-  border-radius: 5px;
 }
 
-#ingredients h2 {
-  text-align: center;
-  padding: 5px;
-  color: var(--beige);
+.fav-title h1 {
+  color: var(--green);
+  font-family: var(--mainText)
 }
