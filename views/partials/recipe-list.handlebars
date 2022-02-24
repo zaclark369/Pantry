@@ -1,13 +1,12 @@
 {{#each recipeData}}
-<div class="card m-3 {{recipeIngredient}} d-none" style="width: 10rem;">
+<div class="card m-3 d-none {{recipeIngredient}}" style="width: 10rem;" id="recipe-card">
   {{#if image}}
   <div class="card-image" data-image="{{image.[0]}}"
     style="background-image: url('{{image.[0]}}'); background-size: cover; height: 150px; position: relative;">
     <h2 type="submit" class="favorite">&#10084;</h2>
   </div>
-  <!--<img class="card-img-top" src={{image.[0]}} src={{image}} alt={{name}}> -->
   {{else}}
-  <div class="card-image" data-image="" style="height: 150px; position: relative;">
+  <div class="card-image" style="height: 150px; position: relative;">
     <h2 type="submit" class="favorite">&#10084;</h2>
     <i>No image available.</i>
   </div>

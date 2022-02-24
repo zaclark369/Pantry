@@ -17,7 +17,11 @@ main {
   background-color: var(--navbar);
 }
 
-/* CARDS */
+/* CARDS AND RECIPE LIST*/
+#recipe-list {
+  height: 100%
+}
+
 #recipe-list .btn {
   width: 100%
 }
@@ -28,35 +32,23 @@ main {
 
 .card {
   height: 300px;
+  padding: 0 !important;
 }
 
 /* favorite icon */
-#recipe-list h2 a{
+#recipe-list h2 a,
+.favorite{
   text-decoration: none;
   float: right;
 }
 
 /* BUTTONS */
-.favorite-btn {
-  background-color: var(--navbar);
-  border-color: black;
-  margin: 5 px;
-}
-
 .remove-btn {
   display: inline-block;
 }
 
 .remove-btn:hover {
   cursor: pointer;
-}
-
-.starbtn {
-  display: inline-block;
-  margin: 0 auto;
-
-  border: none;
-  border-radius: 50%;
 }
 
 /* NAVIGATION BAR */
@@ -77,7 +69,7 @@ main {
   outline: none;
   text-decoration: none;
   color: black;
-  top: 30;
+  top: 30%;
 }
 
 .navbar {
@@ -133,6 +125,7 @@ header.masthead .masthead-heading {
   margin: 5px;
   background-color: var(--beige);
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .ingredBtn, .recipe-categories button {
@@ -146,6 +139,7 @@ header.masthead .masthead-heading {
 #ingredients {
   background-color: var(--green);
   height: 100%;
+  border-radius: 5px;
 }
 
 #ingredients h2 {
