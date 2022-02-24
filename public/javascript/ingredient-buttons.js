@@ -24,6 +24,11 @@ function buttonHandler(event) {
   //remove pan
   const pan = document.getElementById("pan");
   pan.classList.add("d-none")
+
+  //add pan if all buttons are deselected
+  if (document.querySelector("#ingredients").querySelectorAll(".btn-success").length == 0) {
+    pan.classList.remove("d-none")
+  };
 }
 
 //attach event listeners to buttons
