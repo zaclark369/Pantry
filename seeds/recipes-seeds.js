@@ -2933,7 +2933,7 @@ const recipeData = [
     ],
     url: "https://histaminefriendlykitchen.com/dinosaur-birthday-cake/",
     recipeIngredient: [
-      "cake batter, see link to my &#8220;Naturally Green Histamine Friendly Muffins&#8221; recipe above.",
+      "cake batter",
       "1 round baking pan (20 cm in diameter, 8 inches)",
       "1 rectangular baking pan (ca. 10 x 20 cm, 4 x 8 inches).",
       "150 g butter (soft)",
@@ -2944,7 +2944,6 @@ const recipeData = [
       "food color (kale juice, or other coloring agent)",
       "(white) chocolate chips",
       "blueberries or other berries",
-      "m&amp;m&#8217;s or somethings similar &#8211; not histamine friendly though.",
       "Only your imagination sets the limits",
     ],
     recipeInstructions: [

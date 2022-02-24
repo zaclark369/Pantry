@@ -13,23 +13,27 @@ main {
   margin: 0;
 }
 
-h2 {
-  text-align: center;
-  padding: 5px;
-  color: var(--beige)
-}
-
 .bg-grey {
   background-color: var(--navbar);
 }
 
 /* CARDS */
+#recipe-list .btn {
+  width: 100%
+}
+
 .card-body {
   background-color: var(--navbar);
 }
 
 .card {
-  height: fit-content;
+  height: 300px;
+}
+
+/* favorite icon */
+#recipe-list h2 a{
+  text-decoration: none;
+  float: right;
 }
 
 /* BUTTONS */
@@ -121,7 +125,7 @@ header.masthead .masthead-heading {
 }
 
 /* INGREDIENTS */
-h4 {
+#ingredients h4 {
   text-align: center;
 }
 
@@ -142,4 +146,10 @@ h4 {
 #ingredients {
   background-color: var(--green);
   height: 100%;
+}
+
+#ingredients h2 {
+  text-align: center;
+  padding: 5px;
+  color: var(--beige)
 }
