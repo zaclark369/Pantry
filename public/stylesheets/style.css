@@ -13,10 +13,6 @@ main {
   margin: 0;
 }
 
-.bg-grey {
-  background-color: var(--navbar);
-}
-
 /* CARDS AND RECIPE LIST*/
 #recipe-list {
   height: 100%
@@ -35,23 +31,28 @@ main {
   padding: 0 !important;
 }
 
-/* favorite icon */
+/* card icons */
 #recipe-list h2 a,
-.favorite{
+.favorite,
+.remove-btn{
   text-decoration: none;
   float: right;
 }
 
-/* BUTTONS */
 .remove-btn {
   display: inline-block;
 }
 
+/* BUTTONS */
 .remove-btn:hover {
   cursor: pointer;
 }
 
 /* NAVIGATION BAR */
+.bg-grey {
+  background-color: var(--navbar);
+}
+
 .wrapper {
   margin: 0;
   height: 100%;
