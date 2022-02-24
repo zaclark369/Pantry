@@ -2933,7 +2933,7 @@ const recipeData = [
     ],
     url: "https://histaminefriendlykitchen.com/dinosaur-birthday-cake/",
     recipeIngredient: [
-      "cake batter, see link to my &#8220;Naturally Green Histamine Friendly Muffins&#8221; recipe above.",
+      "cake batter",
       "1 round baking pan (20 cm in diameter, 8 inches)",
       "1 rectangular baking pan (ca. 10 x 20 cm, 4 x 8 inches).",
       "150 g butter (soft)",
@@ -2944,7 +2944,6 @@ const recipeData = [
       "food color (kale juice, or other coloring agent)",
       "(white) chocolate chips",
       "blueberries or other berries",
-      "m&amp;m&#8217;s or somethings similar &#8211; not histamine friendly though.",
       "Only your imagination sets the limits",
     ],
     recipeInstructions: [
@@ -4262,7 +4261,7 @@ const recipeData = [
     keywords:
       "milk,cinnamon,sugar,vanilla,applesauce,whole wheat bread,skillet,griddle,breakfast,low fat",
     recipeYield: "6 servings",
-    recipeCategory: ["breakfast","low fat"],
+    recipeCategory: ["breakfast", "low fat"],
     recipeCuisine: "American",
     recipeIngredient: [
       "2 eggs",
@@ -4317,7 +4316,7 @@ const recipeData = [
     keywords:
       "baking apple,cinnamon,dried cranberries,brown sugar,margarine,microwave,breakfast,dessert",
     recipeYield: "1 serving",
-    recipeCategory: ["Breakfast","Dessert"],
+    recipeCategory: ["Breakfast", "Dessert"],
     recipeCuisine: "American",
     recipeIngredient: [
       "1 baking apple (try Golden Delicious, Granny Smith, Jonathan, or Braeburn)",
@@ -4434,7 +4433,7 @@ const recipeData = [
     keywords:
       "breakfast,vegetarian,eggs,milk,vanilla,flour,sugar,cinnamon,butter,cherries,almonds,margarine,bake,golden brown",
     recipeYield: "4 servings",
-    recipeCategory: ["breakfast","vegetarian"],
+    recipeCategory: ["breakfast", "vegetarian"],
     recipeCuisine: "American",
     recipeIngredient: [
       "3 eggs",
@@ -4498,7 +4497,13 @@ const recipeData = [
     totalTime: "PT20M",
     keywords: ["side dish", "breakfast", "snack", "low fat", "vegetarian"],
     recipeYield: "6 servings",
-    recipeCategory: ["side dish","breakfast","snack","low fat", "vegetarian"],
+    recipeCategory: [
+      "side dish",
+      "breakfast",
+      "snack",
+      "low fat",
+      "vegetarian",
+    ],
     recipeCuisine: "American",
     recipeIngredient: [
       "1/2 cup cornmeal",
@@ -5131,30 +5136,4 @@ const recipeData = [
   },
 ];
 
-const recipeCategories = () => {
-  const category = recipeData.map((recipe) => recipe.recipeCategory);
-  var array = [];
-
-  //push all categories to array
-  for (i = 0; i < recipeData.length; i++) {
-    //if not undefined
-    if (recipeData[i].recipeCategory) {
-      //if array, push each entry
-      if (Array.isArray(recipeData[i].recipeCategory)) {
-        let recipeArray = recipeData[i].recipeCategory;
-        recipeArray.forEach((category) => array.push(category.toLowerCase()));
-      } else {
-        let categoryString = JSON.stringify(recipeData[i].recipeCategory);
-        //filter out special characters
-        let sanitizedCategory = categoryString.replace(/\W/g, "");
-        //make lowercase
-        array.push(sanitizedCategory.toLowerCase());
-      }
-    }
-  }
-  //remove duplicates and alphabetize
-  let uniqueCategories = [...new Set(array.sort())];
-  return uniqueCategories;
-};
-
-module.exports = { recipeData, recipeCategories };
+module.exports = { recipeData };
