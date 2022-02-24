@@ -3,6 +3,7 @@
   --navbar: #d9d9d9;
   --pantrybackground: #fdfff4;
   --green: #86bd5f;
+  --beige: #FDFFF4;
   --mainText: "JetBrains Mono", monospace;
 }
 
@@ -10,6 +11,12 @@ html,
 body,
 main {
   margin: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+  color: var(--beige)
 }
 
 .bg-grey {
@@ -115,17 +122,17 @@ header.masthead .masthead-heading {
 
 /* INGREDIENTS */
 .ingredCont {
-  margin: 4px;
-  border: 2px solid darkgreen;
+  margin: 5px;
+  background-color: var(--beige);
   border-radius: 5px;
-  padding: auto;
 }
 
-.ingredBtn {
-  margin: 0.3px;
+.ingredBtn, .recipe-categories button {
+  margin: 2px;
   text-align: center;
-  border: 1px solid black;
-  box-shadow: 0.5px 0.5px black;
+  border: none;
+  width: 105px;
+  font-family: sans-serif;
 }
 
 #ingredients {
