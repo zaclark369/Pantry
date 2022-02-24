@@ -19,13 +19,12 @@
 
   ## Installation
   
- - `git clone ` application to your local machine.
-  - `npm init -y`
+  - `git clone ` application to your local machine.
   - `npm i `
   - `mysql -u root -p`
   - `source db/schema.sql`
   - `quit`
-  - `npm start`
+  - `npm start`  <br><br>
   Can also be found on heroku @ https://whispering-reef-71968.herokuapp.com/
 
   ## Usage
@@ -34,8 +33,7 @@
 
   ## Video
   
- Here are some images:
-[![landing page](./public/img/screenshotHomepage2.png)](_______ "Demo Video")
+[![landing page](./public/img/screenshotHomepage.png)](_______ "Demo Video")
 
 
 
