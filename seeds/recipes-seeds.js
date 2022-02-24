@@ -5147,20 +5147,25 @@ const recipeCategories = () => {
       if (Array.isArray(recipeData[i].recipeCategory)) {
         let recipeArray = recipeData[i].recipeCategory;
         recipeArray.forEach((category) =>
-          array.push({ index: [i], category: category.toLowerCase() })
+        //if category already exists, add index to index property of that entry
+        // if (category.find(element => element == category)) {
+          array.push({ index: i, category: category.toLowerCase() })
+        // }
+          
         );
       } else {
         let categoryString = JSON.stringify(recipeData[i].recipeCategory);
         //filter out special characters
         let sanitizedCategory = categoryString.replace(/\W/g, "");
         //make lowercase
-        array.push({ index: [i], category: sanitizedCategory.toLowerCase() });
+        array.push({ index: i, category: sanitizedCategory.toLowerCase() });
       }
     }
   }
   //remove duplicates and alphabetize
   let uniqueCategories = [...new Set(array.sort())];
-  return uniqueCategories;
+  return console.log(uniqueCategories);
+  // return uniqueCategories;
 };
 
 module.exports = { recipeData, recipeCategories };

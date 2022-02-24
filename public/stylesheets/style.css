@@ -13,10 +13,8 @@ main {
   margin: 0;
 }
 
-h2 {
+h4 {
   text-align: center;
-  padding: 5px;
-  color: var(--beige)
 }
 
 .bg-grey {
@@ -120,11 +118,20 @@ header.masthead .masthead-heading {
   width: 15vw;
 }
 
+/* SEARCH PAGE */
+h2 {
+  text-align: center;
+  padding: 5px;
+  color: var(--beige);
+  padding-bottom: 15px
+}
+
 /* INGREDIENTS */
 .ingredCont {
   margin: 5px;
   background-color: var(--beige);
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .ingredBtn, .recipe-categories button {
