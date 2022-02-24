@@ -121,6 +121,10 @@ header.masthead .masthead-heading {
 }
 
 /* INGREDIENTS */
+h4 {
+  text-align: center;
+}
+
 .ingredCont {
   margin: 5px;
   background-color: var(--beige);
