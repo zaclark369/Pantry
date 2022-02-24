@@ -3,6 +3,7 @@
   --navbar: #d9d9d9;
   --pantrybackground: #fdfff4;
   --green: #86bd5f;
+  --beige: #fdfff4;
   --mainText: "JetBrains Mono", monospace;
 }
 
@@ -12,51 +13,58 @@ main {
   margin: 0;
 }
 
-.bg-grey {
-  background-color: var(--navbar);
+/* CARDS AND RECIPE LIST*/
+#pan {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-family: var(--mainText);
 }
 
-/* CARDS */
+#pan img {
+  width: 150px;
+  padding: 5px;
+}
+
+#recipe-list {
+  height: 100%;
+}
+
+#recipe-list .btn {
+  width: 100%;
+}
+
 .card-body {
   background-color: var(--navbar);
 }
 
 .card {
-  height: fit-content;
+  height: 300px;
+  padding: 0 !important;
 }
 
-/* BUTTONS */
-.favorite-btn {
-  background-color: var(--navbar);
-  border-color: black;
-  margin: 5 px;
+/* card icons */
+#recipe-list h2 a,
+.favorite,
+.remove-btn {
+  text-decoration: none;
+  float: right;
 }
 
 .remove-btn {
   display: inline-block;
 }
 
+/* BUTTONS */
 .remove-btn:hover {
   cursor: pointer;
 }
 
-.starbtn {
-  display: inline-block;
-  margin: 0 auto;
-
-  border: none;
-  border-radius: 50%;
-}
-
 /* NAVIGATION BAR */
-.wrapper {
-  margin: 0;
-  height: 100%;
-}
-
-.navbar-brand {
-  font-size: 2.25rem;
-  padding-left: 0.4rem;
+.bg-grey {
+  background-color: var(--navbar);
 }
 
 .navbar i {
@@ -66,7 +74,7 @@ main {
   outline: none;
   text-decoration: none;
   color: black;
-  top: 30;
+  top: 30%;
 }
 
 .navbar {
@@ -74,13 +82,12 @@ main {
 }
 
 /* HOMEPAGE */
-/* size dependant and addition of masthead */
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   color: #fff;
   text-align: center;
-  height: calc(100vh - 80px);
+  height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/masthead-bg-resize.jpg");
   background-repeat: repeat, no-repeat;
@@ -114,21 +121,37 @@ header.masthead .masthead-heading {
 }
 
 /* INGREDIENTS */
-.ingredCont {
-  margin: 4px;
-  border: 2px solid darkgreen;
-  border-radius: 5px;
-  padding: auto;
+#ingredients h4 {
+  text-align: center;
+  font-family: var(--mainText);
+  padding: 5px;
+  font-size: 1.2em;
 }
 
-.ingredBtn {
-  margin: 0.3px;
+.ingredCont {
+  margin: 5px;
+  padding: 1.5px;
+  background-color: var(--beige);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.ingredBtn,
+.recipe-categories button {
+  margin: 2px;
   text-align: center;
-  border: 1px solid black;
-  box-shadow: 0.5px 0.5px black;
+  border: none;
+  width: 105px;
+  font-family: sans-serif;
 }
 
 #ingredients {
   background-color: var(--green);
   height: 100%;
+}
+
+.fav-title h1 {
+  color: var(--green);
+  font-family: var(--mainText)
 }

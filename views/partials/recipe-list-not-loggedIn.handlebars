@@ -1,16 +1,19 @@
 {{#each recipeData}}
-  <div class="card m-3 d-none {{recipeIngredient}} {{recipeCategory}}" style="width: 10rem;" id="recipe-card">
-    {{#if image}}
-    <div class="card-image" data-image="{{image.[0]}}" style="background-image: url('{{image.[0]}}'); background-size: cover; height: 150px; position: relative;">
-      <h2 type="submit"><a href="/login">&#10084;</a></h2>
-    </div>
-    {{else}}
-    <div class="card-image" style="height: 150px; position: relative;"><h2 class="favorite">&#10084;</h2><i>No image available.</i></div>
-    {{/if}}
-    <div class="card-body">
-      <h5 class="card-title">{{name}}</h5>
-      <a href="{{url}}" target="_blank" class="btn btn-primary">View</a>
-    </div>
+<div class="card m-3 p-0 d-none {{recipeIngredient}}" style="width: 10rem;" id="recipe-card">
+  {{#if image}}
+  <div class="card-image" data-image="{{image.[0]}}"
+    style="background-image: url('{{image.[0]}}'); background-size: cover; height: 150px; position: relative;">
+    <h2 type="submit"><a href="/login">&#10084;</a></h2>
   </div>
+  {{else}}
+  <div class="card-image" style="height: 150px; position: relative;">
+    <h2 class="favorite">&#10084;</h2><i>No image available.</i>
+  </div>
+  {{/if}}
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{name}}</h5>
+    <a href="{{url}}" target="_blank" class="btn btn-success mt-auto">View</a>
+  </div>
+</div>
 {{/each}}
 <script src="/javascript/favoritebtn.js"></script>

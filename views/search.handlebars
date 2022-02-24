@@ -1,21 +1,22 @@
-<div class="container pt-3 m-0">
-    <div class="row gx-5">
+<div class="row gx-5 m-0">
+    <!--<div class="row gx-5">-->
         
-        <div id="ingredients" class="col-6 col-md-4">
-            <h2>Ingredients</h2>
+        <div id="ingredients" class="col-6 col-md-4 px-5">
+            {{> ingredient-categories}}
         </div>
 
-        {{#if loggedIn}}
-        <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
-            {{> recipe-categories }}
+        
+        <div id="recipe-list" class="col-md-8 d-flex flex-wrap row justify-content-center">
+            <div id="pan"><img src="./img/loading-pot.gif">
+            <p>Add ingredients to get started!</p>
+            </div>
+            {{#if loggedIn}}
             {{> recipe-list}}
-        </div>
-        {{else}}
-        <div id="recipe-list" class="col-md-8 d-flex flex-wrap">
-            {{> recipe-categories }}
+            {{else}}
             {{> recipe-list-not-loggedIn}}
         </div>
         {{/if}}
-    </div>
+    <!--</div>-->
 </div>
-<script src="./javascript/ingredients.js"></script>
+<script src="./javascript/generate-ingredients.js"></script>
+<script src="./javascript/ingredient-buttons.js"></script>
