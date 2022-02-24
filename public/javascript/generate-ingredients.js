@@ -5,10 +5,10 @@ const staples = ["sugar", "flour", "beans", "pasta", "eggs", "oil"];
 const alcohol = ["rum", "gin", "mezcal", "wine"];
 
 const ingredientContainer = document.getElementById("ingredients");
-const fruitsVeggiesContainer = document.getElementById("fruitsVeggies");
-const dairyContainer = document.getElementById("dairy");
-const meatContainer = document.getElementById("meat");
-const staplesContainer = document.getElementById("staples");
+const fruitsVeggiesContainer = document.querySelector(".fruit-veggie-btn-container");
+const dairyContainer = document.querySelector(".dairy-btn-container");
+const meatContainer = document.querySelector(".meat-btn-container");
+const staplesContainer = document.querySelector(".staples-btn-container");
 
 // Fruits & Veggies
 fruitsVeggies.forEach((ingredient) => {
