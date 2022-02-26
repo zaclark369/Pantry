@@ -24,16 +24,17 @@
 
 <body>
   <div class="wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-      <div class="'container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light bg-grey">
+      <div class="'container-fluid d-block w-100">
+        <a class="d-md-none d-sm-inline-block navbar-brand" href="/">PANTRY</a>
+        <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <a class="navbar-brand" href="/">Pantry</a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a class="d-none d-md-block navbar-brand" href="/">PANTRY</a>
+          <ul class="navbar-nav me-auto mb-0">
             <li class="navbar-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              <a class="nav-link" aria-current="page" href="/">HOME</a>
             </li>
             <li class="navbar-item">
               <a class="nav-link" href="/search">SEARCH RECIPES</a>
@@ -51,8 +52,12 @@
               <a class="nav-link" href="/login">LOGIN</a>
               {{/if}}
             </li>
+
+            <li class="navbar-item  d-md-none d-sm-block fs-1">
+              <a class="nav-link bi bi-github" target="_blank" href="https://github.com/zaclark369/Pantry"></a>
+            </li>
           </ul>
-          <a target="_blank" href="https://github.com/zaclark369/Pantry"><i class="bi bi-github"></i></a>
+          <a target="_blank" href="https://github.com/zaclark369/Pantry"><i class="bi bi-github d-none d-md-block"></i></a>
         </div>
       </div>
     </nav>
