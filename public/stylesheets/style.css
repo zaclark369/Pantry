@@ -161,3 +161,8 @@ header.masthead .masthead-heading {
   color: var(--green);
   font-family: var(--mainText)
 }
+
+.favorite {
+  color: #b31818;
+  padding-right: 3px;
+}
