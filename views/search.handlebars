@@ -1,12 +1,17 @@
+<div class="mobile-subnav d-md-none d-block">
+    <div class="d-flex justify-content-center m-2">
+        <button class="btn btn-success px-5 mx-2">Ingredients</button>
+        <button class="btn btn-success px-5 mx-2">Recipes</button>
+    </div>
+</div>
 <div class="row gx-5 m-0">
-    <!--<div class="row gx-5">-->
         
-        <div id="ingredients" class="col-6 col-md-4 px-5">
+        <div id="ingredients" class="col-md-4 px-lg-5 h-auto">
             {{> ingredient-categories}}
         </div>
 
         
-        <div id="recipe-list" class="col-md-8 d-flex flex-wrap row justify-content-center">
+        <div id="recipe-list" class="col-md-8 d-none d-md-flex d-sm-none flex-wrap row justify-content-center">
             <div id="pan"><a href="https://zaclark369.github.io/jumping_fryingpan_sidescroller/" target="_blank"><img src="./img/loading-pot.gif"></a>
             <p>Add ingredients to get started!</p>
             </div>
@@ -16,7 +21,6 @@
             {{> recipe-list-not-loggedIn}}
         </div>
         {{/if}}
-    <!--</div>-->
 </div>
 <script src="./javascript/generate-ingredients.js"></script>
 <script src="./javascript/ingredient-buttons.js"></script>
