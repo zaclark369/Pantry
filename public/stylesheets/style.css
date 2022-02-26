@@ -162,7 +162,8 @@ header.masthead .masthead-heading {
   font-family: var(--mainText)
 }
 
-.favorite {
+.favorite,
+.remove-btn {
   color: #b31818;
   padding-right: 3px;
 }
