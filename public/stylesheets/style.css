@@ -7,6 +7,10 @@
   --mainText: "JetBrains Mono", monospace;
 }
 
+* {
+  font-family: var(--mainText);
+}
+
 html,
 body,
 main {
@@ -58,7 +62,8 @@ main {
 }
 
 /* BUTTONS */
-.remove-btn:hover {
+.remove-btn:hover,
+#logout {
   cursor: pointer;
 }
 
