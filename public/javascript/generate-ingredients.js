@@ -14,9 +14,7 @@ fruitsVeggies.forEach((ingredient) => {
   var button = document.createElement("button");
   button.type = "button";
   button.innerHTML = ingredient;
-  button.classList.add("btn");
-  button.classList.add("btn-secondary");
-  button.classList.add("ingredBtn");
+  button.classList.add("btn", "btn-secondary", "ingredBtn", "btn-md");
   fruitsVeggiesContainer.appendChild(button);
 });
 
