@@ -31,7 +31,7 @@ const sess = {
   cookie: {
     // delete the cookie after 30 minutes
     expires: true,
-    maxAge: 30000 * 60,
+    maxAge: 30000 * 60
   },
   // reset maxAge counter for every request
   rolling: true,

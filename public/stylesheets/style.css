@@ -7,6 +7,10 @@
   --mainText: "JetBrains Mono", monospace;
 }
 
+* {
+  font-family: var(--mainText);
+}
+
 html,
 body,
 main {
@@ -58,7 +62,8 @@ main {
 }
 
 /* BUTTONS */
-.remove-btn:hover {
+.remove-btn:hover,
+#logout {
   cursor: pointer;
 }
 
@@ -79,6 +84,7 @@ main {
 
 .navbar {
   padding-left: 0.6rem;
+  padding-right: 0.6rem;
 }
 
 /* HOMEPAGE */
@@ -154,4 +160,10 @@ header.masthead .masthead-heading {
 .fav-title h1 {
   color: var(--green);
   font-family: var(--mainText)
+}
+
+.favorite,
+.remove-btn {
+  color: #b31818;
+  padding-right: 3px;
 }
