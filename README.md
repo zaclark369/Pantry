@@ -56,3 +56,22 @@ Please contact us at
 
 Database Code
 Micah Cochran [GitHub](https://github.com/micahcochran/json-cookbook/blob/main/cookbook-100.json)
+
+## Overview
+
+Here's an overview of the app!
+
+<details>
+<summary>Home and Search</summary>
+<img src="./public/img/PantryHomeSearchOverview.png"/.>
+</details>
+
+<details>
+<summary>View Favorites</summary>
+<img src="./public/img/PantryFavorites.png"/.>
+</details>
+
+<details>
+<summary>Auth</summary>
+<img src="./public/img/AuthOverview.png"/.>
+</details>
