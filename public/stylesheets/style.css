@@ -15,6 +15,21 @@ html,
 body,
 main {
   margin: 0;
+  padding: 0;
+}
+
+main .masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-container {
+  max-width: 700px;
+}
+
+.landing-container a {
+  font-size: 1.2rem;
 }
 
 /* CARDS AND RECIPE LIST*/
@@ -89,7 +104,7 @@ main {
 
 /* HOMEPAGE */
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 6rem;
   padding-bottom: 6rem;
   color: #fff;
   text-align: center;
@@ -104,21 +119,14 @@ header > a {
   filter: grayscale(0%);
 }
 
-.masthead-heading,
+.masthead-heading {
+  font-size: 78px;
+  font-weight: bold;
+}
+
 .masthead-subheading {
-  font-family: var(--mainText);
-}
-
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .masthead .btn-success {
