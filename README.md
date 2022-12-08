@@ -26,7 +26,7 @@ Have you ever wanted to make dinner but can't think of anything. This applicatio
 - `source db/schema.sql`
 - `quit`
 - `npm start` <br><br>
-  Can also be found on heroku @ https://whispering-reef-71968.herokuapp.com/
+  Can also be found on heroku @ https://pantry-app.herokuapp.com/
 
 ## Usage
 
